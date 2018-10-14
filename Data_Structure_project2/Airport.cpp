@@ -113,6 +113,13 @@ void Airport::Take_Land()
 				}
 			}
 		}
+		for (auto iter : runway) {
+			if (iter.second.getTag()) {
+				if (!queue_land.size()) {
+					iter.second.setFlag(false);
+				}
+			}
+		}
 	}
 	for (auto iter : runway)
 	{
