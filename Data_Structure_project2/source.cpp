@@ -21,6 +21,7 @@ using std::endl;
 
 bool fuel_flag;
 const double pi = 3.1415926;
+unsigned int p = 0;
 
 void Ini(Airport& myairport, unsigned int& time, double& e1, double& e2, bool& rand_flag, bool& fuel_flag);
 void print(int t, Airport myairport, tuple<bool, vector<Plane>, vector<Plane>>);
@@ -218,7 +219,7 @@ int possion(long double E)
         while (p>=l)
         {
                 double u;
-                srand((unsigned)time(NULL));
+				srand((unsigned)time(NULL) + p++);
                 u = (float)(rand() % 100) / 100;
                 p *= u;
                 k++;
@@ -229,7 +230,7 @@ int possion(long double E)
 
 int norm(double i,double j)
 {
-	srand( (unsigned)time( NULL ) );
+	srand((unsigned)time(NULL) + ++p);
 	double u1=double(rand()%1000)/1000,u2=double(rand()%1000)/1000,r;
 	static unsigned int seed=0;
 	r=i+sqrt(j)*sqrt(-2.0*(log(u1)/log(exp(1.0))))*cos(2*pi*u2);
