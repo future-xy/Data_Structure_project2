@@ -82,11 +82,25 @@ int main()
 
 		for (int i = 0; i < count_land; ++i)
 		{
-			myairport.message(false, num_plane++);
+			if (fuel_flag)
+			{
+				myairport.message(false, num_plane++, norm(), norm());
+			}
+			else
+			{
+				myairport.message(false, num_plane++);
+			}
 		}
 		for (int i = 0; i < count_take_off; ++i)
 		{
-			myairport.message(true, num_plane++);
+			if (fuel_flag)
+			{
+				myairport.message(true, num_plane++, norm(), norm());
+			}
+			else
+			{
+				myairport.message(true, num_plane++);
+			}
 		}
 		tuple<bool, vector<Plane>, vector<Plane>> result = myairport.Order();
 		bool error_flag = get<0>(result);
@@ -99,7 +113,6 @@ int main()
 		{
 			print(t, myairport, result);
 		}
-
 	}
 
 	return 0;
@@ -115,14 +128,14 @@ void print(int t, Airport myairport, tuple<bool, vector<Plane>, vector<Plane>> r
 	for (auto item : taking)
 	{
 		string temp = "\t";
-		temp += "Flight" + to_string(item.getNum()) + "is taking off on Runway" + to_string(item.getrunway()) + "\t";
+		temp += "Flight " + to_string(item.getNum()) + " is taking off on Runway " + to_string(item.getrunway()) + "\t";
 		temp += "Waiting time\t" + to_string(item.getTime());
 		str += temp + "\n";
 	}
 	for (auto item : landing)
 	{
 		string temp = "\t";
-		temp += "Flight" + to_string(item.getNum()) + "if landing on Runway" + to_string(item.getrunway()) + "\t";
+		temp += "Flight " + to_string(item.getNum()) + " is landing on Runway " + to_string(item.getrunway()) + "\t";
 		temp += "Waiting time\t" + to_string(item.getTime());
 		str += temp + "\n";
 	}
@@ -150,6 +163,9 @@ void print(int t, Airport myairport, tuple<bool, vector<Plane>, vector<Plane>> r
 		str += temp;
 	}
 	cout << str << endl;
+	std::ofstream myout("log.txt", std::ios::app);
+	myout << str << endl;
+	myout.close();
 }
 
 void Ini(Airport& myairport, unsigned int& time, double& e1, double& e2, bool& rand_flag, bool& fuel_flag)

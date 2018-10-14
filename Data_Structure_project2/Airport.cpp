@@ -135,8 +135,8 @@ bool Airport::dispatch() {
 }
 bool Airport::compare() {
 	int temp = queue_takeoff.size()*size_queue_land - queue_land.size()*size_queue_takeoff;
-	if (temp >= 0) return true;
-	return false;
+	if (temp >= 0) return false;
+	return true;
 }
 
 tuple<bool, vector<Plane>, vector<Plane> > Airport::Order()
