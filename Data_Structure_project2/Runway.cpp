@@ -1,16 +1,19 @@
 #include "Runway.h"
 
 
-Runway::Runway(){//此处参数默认值待考虑 
-	flag = true; 
+Runway::Runway(){ 
+	flag = true;
+	tag = true;
 	num = 0;
 }
-Runway::Runway(int num, bool flag){
+Runway::Runway(int num, bool flag, bool tag){
 	this->num = num;
 	this->flag = flag;
+	this->tag = tag;
 }
 Runway::~Runway(){
 	flag = true;
+	tag = true;
 	num = 0;
 }
 void Runway::setFlag(bool flag){
@@ -21,4 +24,10 @@ bool Runway::getFlag() const{
 }
 int Runway::getNum() const{
 	return num;
+}
+void Runway::setTag(bool tag){
+	this->tag = tag;
+}
+bool Runway::getTag() const{
+	return tag;
 }

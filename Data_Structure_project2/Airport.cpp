@@ -82,8 +82,9 @@ void Airport::Take_Land()
 		}
 	}
 }
-void Airport::Order()
+tuple<bool, vector<Plane>, vector<Plane> > Airport::Order()
 {
+	Take_Land();
 	vector<Plane> temp;
 	while (!queue_takeoff.empty())
 	{
@@ -114,6 +115,7 @@ void Airport::Order()
 		}
 		queue_land.push(item);
 	}
+	return request();
 }
 
 

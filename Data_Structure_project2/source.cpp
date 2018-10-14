@@ -5,7 +5,7 @@
 
 #include"Airport.h";
 
-//留给大佬的
+//脕么赂酶麓贸脌脨碌脛
 using std::tuple;
 using std::string;
 using std::to_string;
@@ -97,3 +97,38 @@ int main()
 	return 0;
 
  } 
+
+
+
+//random and keyboard
+#include <cmath>
+#include <ctime>
+#include <cstdlib>
+
+
+
+void usercontrol(int &m, int &n)
+{
+	cout << "Input the number of taking off planes right now: ";
+	cin >> n;
+	cout << "\nInput the number of landing planes right now: ";
+	cin >> m;
+	cout << endl; 
+}
+
+int possion(int E)
+{
+        int Lambda = E, k = 0;
+        long double p = 1.0;
+        long double l=exp(-Lambda); 
+        while (p>=l)
+        {
+                double u;
+                srand((unsigned)time(NULL));
+                u = (float)(rand() % 100) / 100;
+                p *= u;
+                k++;
+        }
+        return k-1;
+}
+

@@ -1,17 +1,20 @@
 #pragma once
 
-//ÅÜµÀÀàºÃ¼òµ¥£¬£¬µ«ÊÇºÃÏñÏë²»µ½Ê²Ã´ÆäËû²ÎÊıÁË
+//è·‘é“ç±»å¥½ç®€å•ï¼Œï¼Œä½†æ˜¯å¥½åƒæƒ³ä¸åˆ°ä»€ä¹ˆå…¶ä»–å‚æ•°äº†
 class Runway
 {
 public:
 	Runway();
-	Runway(int num, bool flag);
+	Runway(int num, bool flag, bool tag);
 	~Runway();
 	void setFlag(bool flag);
 	bool getFlag() const;
+	void setTag(bool tag);
+	bool getTag() const;
 	int getNum() const;
 private:
-	bool flag;	//ÅÜµÀÊÇÆğ·É»ò×ÅÂ½ trueÆğ·É flase×ÅÂ½ 
-	int num;	//ÅÜµÀ±àºÅ
+	bool flag;	//è·‘é“æ˜¯èµ·é£æˆ–ç€é™† trueèµ·é£ flaseç€é™†
+	bool tag;	//è·‘é“å±æ€§èƒ½å¦è¢«ä¿®æ”¹
+	int num;	//è·‘é“ç¼–å·
 };
 
