@@ -49,14 +49,22 @@ bool Airport::message(bool flag, int num, int fuel, int v)//the simple condition
 			queue_takeoff.push(P);
 			return true;
 		}
-		else return false;
+		else
+		{
+			error_flag = true;
+			return false;
+		}
 	}
 	else {
 		if (queue_land.size() < size_queue_land) {
 			queue_land.push(P);
 			return true;
 		}
-		else return false;
+		else 
+		{
+			error_flag = true;
+			return false;
+		}
 	}
 }
 
@@ -135,8 +143,8 @@ bool Airport::dispatch() {
 }
 bool Airport::compare() {
 	int temp = queue_takeoff.size()*size_queue_land - queue_land.size()*size_queue_takeoff;
-	if (temp >= 0) return false;
-	return true;
+	if (temp >= 0) return true;
+	return false;
 }
 
 tuple<bool, vector<Plane>, vector<Plane> > Airport::Order()

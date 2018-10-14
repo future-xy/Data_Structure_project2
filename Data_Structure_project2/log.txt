@@ -1,0 +1,12 @@
+0:
+	Flight 1002 is taking off on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1003	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1000	1
+1001	1
+

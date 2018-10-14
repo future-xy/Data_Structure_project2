@@ -84,7 +84,7 @@ int main()
 		{
 			if (fuel_flag)
 			{
-				myairport.message(false, num_plane++, norm(), norm());
+				//myairport.message(false, num_plane++, norm(), norm());
 			}
 			else
 			{
@@ -95,7 +95,7 @@ int main()
 		{
 			if (fuel_flag)
 			{
-				myairport.message(true, num_plane++, norm(), norm());
+				//myairport.message(true, num_plane++, norm(), norm());
 			}
 			else
 			{
@@ -106,7 +106,7 @@ int main()
 		bool error_flag = get<0>(result);
 		if (error_flag == true)
 		{
-			cout << "error";
+			cout << "ERROR!!!\n";
 			break;
 		}
 		else
