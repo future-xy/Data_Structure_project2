@@ -8,7 +8,7 @@
 #include <cstdlib>
 #include<cstdlib>
 
-#include"Airport.h";
+#include"Airport.h"
 
 using std::tuple;
 using std::string;
@@ -24,7 +24,7 @@ bool fuel_flag;
 void Ini(Airport& myairport, unsigned int& time, double& e1, double& e2, bool& rand_flag, bool& fuel_flag);
 void print(int t, Airport myairport, tuple<bool, vector<Plane>, vector<Plane>>);
 void usercontrol(unsigned int &m, unsigned int &n);
-int possion(int E);
+int possion(long double E);
 
 
 int main()
@@ -200,7 +200,7 @@ void usercontrol(unsigned int &m,unsigned int &n)
 int possion(long double E)
 {
         long double Lambda = E;
-	k = 0;
+		int k = 0;
         long double p = 1.0;
         long double l=exp(-Lambda); 
         while (p>=l)
