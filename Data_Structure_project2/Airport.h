@@ -5,7 +5,6 @@
 
 #include"Plane.h"
 #include"Runway.h"
-using std::vector;
 
 const int MAXSIZE = 1000;
 
@@ -16,19 +15,19 @@ public:
 	Airport();
 	Airport(int size_queue_takeoff, int size_queue_land);
 	~Airport() = default;
-	bool buildRunway(bool flag);
+	bool buildRunway(bool flag, bool tag);
 	bool setSize_queue_takeoff(int size);
 	bool setSize_queue_land(int size);
 	
 	//cur
 	bool message(bool flag, int num, int fuel = 10000000, int v = 0); // 起飞/降落，飞机编号, 
 	void Take_Land();
-	std::tuple<bool, vector<Plane>, vector<Plane> > request() const;
+	std::tuple<bool, std::vector<Plane>, std::vector<Plane> > request() const;
 	std::vector<Plane> show_takeoff();
 	std::vector<Plane> show_land();
 	bool dispatch();
 	bool compare();
-	tuple<bool, vector<Plane>, vector<Plane>  Order(); //order可以认为是机场内部的函数
+	std::tuple<bool, std::vector<Plane>, std::vector<Plane> > Order();
 	//post
 	
 private:
@@ -41,8 +40,8 @@ private:
 	std::priority_queue <Plane> queue_takeoff;	//起飞总队列
 	std::priority_queue <Plane> queue_land;		//降落总队列
 	
-	vector <Plane> Taking;  //当前可起飞飞机队列 
-	vector <Plane> Landing; //当前可降落飞机队列	
+	std::vector <Plane> Taking;  //当前可起飞飞机队列 
+	std::vector <Plane> Landing; //当前可降落飞机队列	
 
 };
 
