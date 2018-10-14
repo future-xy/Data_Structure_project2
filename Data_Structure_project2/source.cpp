@@ -50,13 +50,13 @@ int main()
 		bool tag;
 		if (ok)
 		{
-			cout << "\n请输入跑道属性\n"
-				<< "0-起飞\n"
-				<< "1-降落\n";
+			cout << "\nInput property of the runway\n"
+				<< "0-take off\n"
+				<< "1-land\n";
 			cin >> flag;
-			cout << "\n跑道属性是否可以更改\n"
-				<< "0-是\n"
-				<< "1-否\n";
+			cout << "\nCan the property be changed\n"
+				<< "0-Yes\n"
+				<< "1-No\n";
 			cin >> tag;
 		}
 		else
@@ -115,20 +115,20 @@ void print(int t, Airport myairport, tuple<bool, vector<Plane>, vector<Plane>> r
 	for (auto item : taking)
 	{
 		string temp = "\t";
-		temp += "航班" + to_string(item.getNum()) + "在" + to_string(item.getrunway()) + "号跑道起飞\t";
-		temp += "等待时间\t" + to_string(item.getTime());
+		temp += "Flight" + to_string(item.getNum()) + "is taking off on Runway" + to_string(item.getrunway()) + "\t";
+		temp += "Waiting time\t" + to_string(item.getTime());
 		str += temp + "\n";
 	}
 	for (auto item : landing)
 	{
 		string temp = "\t";
-		temp += "航班" + to_string(item.getNum()) + "在" + to_string(item.getrunway()) + "号跑道降落\t";
-		temp += "等待时间\t" + to_string(item.getTime());
+		temp += "Flight" + to_string(item.getNum()) + "if landing on Runway" + to_string(item.getrunway()) + "\t";
+		temp += "Waiting time\t" + to_string(item.getTime());
 		str += temp + "\n";
 	}
 	vector<Plane> takeoff = myairport.show_takeoff();
-	str += "\n等待起飞队列:\n";
-	str += "航班号\t等待时间\n";
+	str += "\nThe waiting queue of planes to take off:\n";
+	str += "Flight\tWaiting time\n";
 	for (auto item : takeoff)
 	{
 		string temp;
@@ -139,8 +139,8 @@ void print(int t, Airport myairport, tuple<bool, vector<Plane>, vector<Plane>> r
 	}
 
 	vector<Plane> land = myairport.show_land();
-	str += "\n等待降落队列:\n";
-	str += "航班号\t等待时间\n";
+	str += "\nThe waiting queue of planes to land:\n";
+	str += "Flight\tWaiting time\n";
 	for (auto item : land)
 	{
 		string temp;
