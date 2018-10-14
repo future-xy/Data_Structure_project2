@@ -3,9 +3,12 @@
 #include<tuple>
 #include<string>
 
+#include <cmath>
+#include <ctime>
+#include <cstdlib>
+
 #include"Airport.h";
 
-//脕么赂酶麓贸脌脨碌脛
 using std::tuple;
 using std::string;
 using std::to_string;
@@ -14,8 +17,11 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-void Ini(Airport& myairport, unsigned int& time, double& e1, double& e2, bool& rand_flag, bool& fuel_flag);
 bool fuel_flag;
+
+void Ini(Airport& myairport, unsigned int& time, double& e1, double& e2, bool& rand_flag, bool& fuel_flag);
+void print(int t, Airport myairport, tuple<bool, vector<Plane>, vector<Plane>>);
+
 
 int main()
 {
@@ -49,7 +55,7 @@ int main()
 				<< "1-否";
 			cin >> tag;
 		}
-		myairport.buildRunway(falg, tag);
+		myairport.buildRunway(flag, tag);
 	}
 
 	for (int t = 0; t < time; ++t)
@@ -57,12 +63,12 @@ int main()
 		unsigned count_take_off, count_land;
 		if (rand_flag)
 		{
-			count_land = randf(e1);
-			count_take_off = randf(e2);
+			count_land = possion(e1);
+			count_take_off = possion(e2);
 		}
 		else
 		{
-			f(count_land, count_take_off);
+			usercontrol(count_land, count_take_off);
 		}
 
 		for (int i = 0; i < count_land; ++i)
@@ -82,14 +88,7 @@ int main()
 		}
 		else
 		{
-			vector<Plane> taking = get<1>(result);
-			vector<Plane> landing = get<2>(result);
-			string str;
-			str += to_string(t) + ":\n";
-			for (auto item : taking)
-			{
-
-			}
+			print(t, myairport, result);
 		}
 
 	}
@@ -98,16 +97,54 @@ int main()
 
  } 
 
+void print(int t, Airport myairport, tuple<bool, vector<Plane>, vector<Plane>> result)
+{
+	vector<Plane> taking = get<1>(result);
+	vector<Plane> landing = get<2>(result);
+	string str;
+	str += to_string(t) + ":\n";
+	for (auto item : taking)
+	{
+		string temp = "\t";
+		temp += "飞机" + to_string(item.getNum()) + "在" + to_string(item.getrunway()) + "号跑道降落\t";
+		temp += "等待时间\t" + to_string(item.getTime());
+		str += temp + "\n";
+	}
+	for (auto item : landing)
+	{
+		string temp = "\t";
+		temp += "飞机" + to_string(item.getNum()) + "在" + to_string(item.getrunway()) + "号跑道起飞\t";
+		temp += "等待时间\t" + to_string(item.getTime());
+		str += temp + "\n";
+	}
+	vector<Plane> takeoff = myairport.show_takeoff();
+	str += "\n等待起飞队列:\n";
+	for (auto item : takeoff)
+	{
+		string temp = "航班号\t";
+		temp += to_string(item.getNum());
+		temp += "\t" + to_string(item.getTime());
+		temp += "\n";
+		str += temp;
+	}
 
+	vector<Plane> land = myairport.show_land();
+	str += "\n等待降落队列:\n";
+	for (auto item : land)
+	{
+		string temp = "航班号\t";
+		temp += to_string(item.getNum());
+		temp += "\t" + to_string(item.getTime());
+		temp += "\n";
+		str += temp;
+	}
+}
 
 //random and keyboard
-#include <cmath>
-#include <ctime>
-#include <cstdlib>
 
 
 
-void usercontrol(int &m, int &n)
+void usercontrol(unsigned int &m,unsigned int &n)
 {
 	cout << "Input the number of taking off planes right now: ";
 	cin >> n;
