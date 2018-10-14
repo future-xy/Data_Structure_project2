@@ -50,13 +50,13 @@ int main()
 		bool tag;
 		if (ok)
 		{
-			cout << "\nÇëÊäÈëÅÜµÀÊôĞÔ\n"
-				<< "0-Æğ·É\n"
-				<< "1-½µÂä\n";
+			cout << "\nè¯·è¾“å…¥è·‘é“å±æ€§\n"
+				<< "0-èµ·é£\n"
+				<< "1-é™è½\n";
 			cin >> flag;
-			cout << "\nÅÜµÀÊôĞÔÊÇ·ñ¿ÉÒÔ¸ü¸Ä\n"
-				<< "0-ÊÇ\n"
-				<< "1-·ñ\n";
+			cout << "\nè·‘é“å±æ€§æ˜¯å¦å¯ä»¥æ›´æ”¹\n"
+				<< "0-æ˜¯\n"
+				<< "1-å¦\n";
 			cin >> tag;
 		}
 		else
@@ -115,20 +115,20 @@ void print(int t, Airport myairport, tuple<bool, vector<Plane>, vector<Plane>> r
 	for (auto item : taking)
 	{
 		string temp = "\t";
-		temp += "º½°à" + to_string(item.getNum()) + "ÔÚ" + to_string(item.getrunway()) + "ºÅÅÜµÀÆğ·É\t";
-		temp += "µÈ´ıÊ±¼ä\t" + to_string(item.getTime());
+		temp += "èˆªç­" + to_string(item.getNum()) + "åœ¨" + to_string(item.getrunway()) + "å·è·‘é“èµ·é£\t";
+		temp += "ç­‰å¾…æ—¶é—´\t" + to_string(item.getTime());
 		str += temp + "\n";
 	}
 	for (auto item : landing)
 	{
 		string temp = "\t";
-		temp += "º½°à" + to_string(item.getNum()) + "ÔÚ" + to_string(item.getrunway()) + "ºÅÅÜµÀ½µÂä\t";
-		temp += "µÈ´ıÊ±¼ä\t" + to_string(item.getTime());
+		temp += "èˆªç­" + to_string(item.getNum()) + "åœ¨" + to_string(item.getrunway()) + "å·è·‘é“é™è½\t";
+		temp += "ç­‰å¾…æ—¶é—´\t" + to_string(item.getTime());
 		str += temp + "\n";
 	}
 	vector<Plane> takeoff = myairport.show_takeoff();
-	str += "\nµÈ´ıÆğ·É¶ÓÁĞ:\n";
-	str += "º½°àºÅ\tµÈ´ıÊ±¼ä\n";
+	str += "\nç­‰å¾…èµ·é£é˜Ÿåˆ—:\n";
+	str += "èˆªç­å·\tç­‰å¾…æ—¶é—´\n";
 	for (auto item : takeoff)
 	{
 		string temp;
@@ -139,8 +139,8 @@ void print(int t, Airport myairport, tuple<bool, vector<Plane>, vector<Plane>> r
 	}
 
 	vector<Plane> land = myairport.show_land();
-	str += "\nµÈ´ı½µÂä¶ÓÁĞ:\n";
-	str += "º½°àºÅ\tµÈ´ıÊ±¼ä\n";
+	str += "\nç­‰å¾…é™è½é˜Ÿåˆ—:\n";
+	str += "èˆªç­å·\tç­‰å¾…æ—¶é—´\n";
 	for (auto item : land)
 	{
 		string temp;
@@ -166,9 +166,9 @@ void Ini(Airport& myairport, unsigned int& time, double& e1, double& e2, bool& r
 	cout << "\n";
 	if (rand_flag)
 	{
-		cout << "Please enter ¦Ë1 (expected number of arrivals)\n";
+		cout << "Please enter Î»1 (expected number of arrivals)\n";
 		cin >> e1;
-		cout << "\nPlease enter ¦Ë2 (expected number of departures)\n";
+		cout << "\nPlease enter Î»2 (expected number of departures)\n";
 		cin >> e2;
 	}
 	cout << "\nConsider the fuel level or not?\n"
@@ -197,9 +197,10 @@ void usercontrol(unsigned int &m,unsigned int &n)
 	cout << endl; 
 }
 
-int possion(int E)
+int possion(long double E)
 {
-        int Lambda = E, k = 0;
+        long double Lambda = E;
+	k = 0;
         long double p = 1.0;
         long double l=exp(-Lambda); 
         while (p>=l)
