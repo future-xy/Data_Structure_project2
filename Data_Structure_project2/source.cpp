@@ -230,3 +230,12 @@ int possion(long double E)
         return k-1;
 }
 
+#define pi 3.1415926
+int norm(double i,double j)
+{
+	srand( (unsigned)time( NULL ) );
+	double u1=double(rand()%1000)/1000,u2=double(rand()%1000)/1000,r;
+	static unsigned int seed=0;
+	r=i+sqrt(j)*sqrt(-2.0*(log(u1)/log(exp(1.0))))*cos(2*pi*u2);
+	return r;
+}
