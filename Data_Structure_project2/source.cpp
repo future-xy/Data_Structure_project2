@@ -42,7 +42,7 @@ int main()
 	while (true)
 	{
 		int ok = 0;
-		cout << "Would you like to build a runway?\n"
+		cout << "\nWould you like to build a runway?\n"
 			<< "0 to end\n"
 			<< "1 to build\n";
 		cin >> ok;
@@ -50,13 +50,13 @@ int main()
 		bool tag;
 		if (ok)
 		{
-			cout << "请输入跑道属性"
+			cout << "\n请输入跑道属性\n"
 				<< "0-起飞\n"
 				<< "1-降落\n";
 			cin >> flag;
-			cout << "跑道属性是否可以更改"
-				<< "0-是"
-				<< "1-否";
+			cout << "\n跑道属性是否可以更改\n"
+				<< "0-是\n"
+				<< "1-否\n";
 			cin >> tag;
 		}
 		else
@@ -65,6 +65,7 @@ int main()
 		}
 		myairport.buildRunway(flag, tag);
 	}
+	system("cls");
 
 	for (int t = 0; t < time; ++t)
 	{
@@ -89,7 +90,7 @@ int main()
 		}
 		tuple<bool, vector<Plane>, vector<Plane>> result = myairport.Order();
 		bool error_flag = get<0>(result);
-		if (error_flag = true)
+		if (error_flag == true)
 		{
 			cout << "error";
 			break;
@@ -114,22 +115,23 @@ void print(int t, Airport myairport, tuple<bool, vector<Plane>, vector<Plane>> r
 	for (auto item : taking)
 	{
 		string temp = "\t";
-		temp += "飞机" + to_string(item.getNum()) + "在" + to_string(item.getrunway()) + "号跑道降落\t";
+		temp += "航班" + to_string(item.getNum()) + "在" + to_string(item.getrunway()) + "号跑道起飞\t";
 		temp += "等待时间\t" + to_string(item.getTime());
 		str += temp + "\n";
 	}
 	for (auto item : landing)
 	{
 		string temp = "\t";
-		temp += "飞机" + to_string(item.getNum()) + "在" + to_string(item.getrunway()) + "号跑道起飞\t";
+		temp += "航班" + to_string(item.getNum()) + "在" + to_string(item.getrunway()) + "号跑道降落\t";
 		temp += "等待时间\t" + to_string(item.getTime());
 		str += temp + "\n";
 	}
 	vector<Plane> takeoff = myairport.show_takeoff();
 	str += "\n等待起飞队列:\n";
+	str += "航班号\t等待时间\n";
 	for (auto item : takeoff)
 	{
-		string temp = "航班号\t";
+		string temp;
 		temp += to_string(item.getNum());
 		temp += "\t" + to_string(item.getTime());
 		temp += "\n";
@@ -138,14 +140,16 @@ void print(int t, Airport myairport, tuple<bool, vector<Plane>, vector<Plane>> r
 
 	vector<Plane> land = myairport.show_land();
 	str += "\n等待降落队列:\n";
+	str += "航班号\t等待时间\n";
 	for (auto item : land)
 	{
-		string temp = "航班号\t";
+		string temp;
 		temp += to_string(item.getNum());
 		temp += "\t" + to_string(item.getTime());
 		temp += "\n";
 		str += temp;
 	}
+	cout << str << endl;
 }
 
 void Ini(Airport& myairport, unsigned int& time, double& e1, double& e2, bool& rand_flag, bool& fuel_flag)

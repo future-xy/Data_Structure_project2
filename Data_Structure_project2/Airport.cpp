@@ -64,6 +64,9 @@ bool Airport::message(bool flag, int num, int fuel, int v)//the simple condition
 
 void Airport::Take_Land()
 {
+	Taking.clear();
+	Landing.clear();
+
 	if (runway.size() == 1) {
 		if (!queue_takeoff.size())    runway[0].setFlag(false);
 		else {
@@ -175,18 +178,8 @@ tuple<bool, vector<Plane>, vector<Plane> > Airport::Order()
 
 tuple<bool, vector<Plane>, vector<Plane> > Airport::request() const
 {
-	if (error_flag)
-	{
-		tuple<bool, vector<Plane>, vector<Plane> > temp(false, Taking, Landing);
-		return temp;
-
-	}
-	else
-	{
-		tuple<bool, vector<Plane>, vector<Plane> > temp(true, Taking, Landing);
-		return temp;
-	}
-
+	tuple<bool, vector<Plane>, vector<Plane> > temp(error_flag, Taking, Landing);
+	return temp;
 }
 
 vector<Plane> Airport::show_takeoff()
