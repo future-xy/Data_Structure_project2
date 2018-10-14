@@ -63,3 +63,6 @@ bool operator<(Plane a, Plane b)
 	return (double)a.fuel_level/a.fuel_consumption < (double)b.fuel_level / b.fuel_consumption;
 }
 
+int Plane::last() const{
+	return fuel_level/fuel_consumption;
+}
