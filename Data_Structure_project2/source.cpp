@@ -7,6 +7,7 @@
 #include <ctime>
 #include <cstdlib>
 #include<cstdlib>
+#include<Windows.h>
 
 #include"Airport.h"
 
@@ -21,10 +22,12 @@ using std::endl;
 
 bool fuel_flag;
 const double pi = 3.1415926;
-unsigned int p = 0;
+
+unsigned int rp = rand() % 1097201711;
 
 void Ini(Airport& myairport, unsigned int& time, double& e1, double& e2, bool& rand_flag, bool& fuel_flag);
 void print(int t, Airport myairport, tuple<bool, vector<Plane>, vector<Plane>>);
+void print_err(Airport myairport);
 void usercontrol(unsigned int &m, unsigned int &n);
 int possion(long double E);
 int norm(double i, double j);
@@ -32,6 +35,7 @@ int norm(double i, double j);
 
 int main()
 {
+	srand(time(0));
 	//testing_begin
 	Airport myairport;
 	unsigned int time = 0;		//
@@ -104,6 +108,7 @@ int main()
 		if (error_flag == true)
 		{
 			cout << "ERROR!!!\n";
+			print_err(myairport);
 			break;
 		}
 		else
@@ -165,6 +170,39 @@ void print(int t, Airport myairport, tuple<bool, vector<Plane>, vector<Plane>> r
 	myout.close();
 }
 
+void print_err(Airport myairport)
+{
+	string str;
+
+	vector<Plane> takeoff = myairport.show_takeoff();
+	str += "\nThe waiting queue of planes to take off:\n";
+	str += "Flight\tWaiting time\n";
+	for (auto item : takeoff)
+	{
+		string temp;
+		temp += to_string(item.getNum());
+		temp += "\t" + to_string(item.getTime());
+		temp += "\n";
+		str += temp;
+	}
+
+	vector<Plane> land = myairport.show_land();
+	str += "\nThe waiting queue of planes to land:\n";
+	str += "Flight\tWaiting time\n";
+	for (auto item : land)
+	{
+		string temp;
+		temp += to_string(item.getNum());
+		temp += "\t" + to_string(item.getTime());
+		temp += "\n";
+		str += temp;
+	}
+
+	cout << str << endl;
+	std::ofstream myout("log.txt", std::ios::app);
+	myout << str << endl;
+	myout.close();
+}
 void Ini(Airport& myairport, unsigned int& time, double& e1, double& e2, bool& rand_flag, bool& fuel_flag)
 {
 	cout << "Welcome to Guangzhou 319 Internation Airport\n";
@@ -216,21 +254,28 @@ int possion(long double E)
 		int k = 0;
         long double p = 1.0;
         long double l=exp(-Lambda); 
+		std::ofstream testout("data.txt", std::ios::app);
+
         while (p>=l)
         {
                 double u;
-				srand((unsigned)time(NULL) + p++);
+				//Sleep(10);
+				srand(rand() + rp++);
                 u = (float)(rand() % 100) / 100;
+
+				testout << u << endl;
                 p *= u;
                 k++;
         }
+		testout.close();
         return k-1;
 }
 
 
 int norm(double i,double j)
 {
-	srand((unsigned)time(NULL) + ++p);
+	srand(time(0));
+	Sleep(10);
 	double u1=double(rand()%1000)/1000,u2=double(rand()%1000)/1000,r;
 	static unsigned int seed=0;
 	r=i+sqrt(j)*sqrt(-2.0*(log(u1)/log(exp(1.0))))*cos(2*pi*u2);

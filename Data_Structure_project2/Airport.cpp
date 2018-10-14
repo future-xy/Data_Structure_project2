@@ -1,4 +1,5 @@
 #include"Airport.h" 
+#include<iostream>
 
 using std::vector;
 using std::tuple;
@@ -52,6 +53,7 @@ bool Airport::message(bool flag, int num, int fuel, int v)//the simple condition
 		else
 		{
 			error_flag = true;
+			queue_takeoff.push(P);
 			return false;
 		}
 	}
@@ -63,6 +65,7 @@ bool Airport::message(bool flag, int num, int fuel, int v)//the simple condition
 		else 
 		{
 			error_flag = true;
+			queue_land.push(P);
 			return false;
 		}
 	}
@@ -156,6 +159,11 @@ bool Airport::compare() {
 
 tuple<bool, vector<Plane>, vector<Plane> > Airport::Order()
 {
+	if (error_flag == true)
+	{
+		tuple<bool, vector<Plane>, vector<Plane> > temp(error_flag, Taking, Landing);
+		return temp;
+	}
 	Take_Land();
 	vector<Plane> temp;
 	while (!queue_takeoff.empty())
@@ -183,6 +191,7 @@ tuple<bool, vector<Plane>, vector<Plane> > Airport::Order()
 		if (!item.update())
 		{
 			error_flag = true;
+			std::cout << "1";
 			break;
 		}
 		queue_land.push(item);

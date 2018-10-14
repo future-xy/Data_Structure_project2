@@ -19,7 +19,7 @@ bool Plane::update(){
 	if(flag==false)
 	{
 		fuel_level-=fuel_consumption;
-		if( fuel_consumption<0 ) 
+		if (fuel_level < 0)
 			return false;
 	}
 
