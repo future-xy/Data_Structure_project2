@@ -21,26 +21,28 @@ public:
 	bool setSize_queue_land(int size);
 	
 	//cur
-	bool message(bool flag, int num, int fuel = 10000000, int v = 0); // Æğ·É/½µÂä£¬·É»ú±àºÅ, 
+	bool message(bool flag, int num, int fuel = 10000000, int v = 0); // èµ·é£/é™è½ï¼Œé£æœºç¼–å·, 
 	void Take_Land();
 	std::tuple<bool, vector<Plane>, vector<Plane> > request() const;
 	std::vector<Plane> show_takeoff();
 	std::vector<Plane> show_land();
-	void Order(); //order¿ÉÒÔÈÏÎªÊÇ»ú³¡ÄÚ²¿µÄº¯Êı
+	bool dispatch();
+	bool compare();
+	tuple<bool, vector<Plane>, vector<Plane>  Order(); //orderå¯ä»¥è®¤ä¸ºæ˜¯æœºåœºå†…éƒ¨çš„å‡½æ•°
 	//post
 	
 private:
-	bool error_flag = false;//´íÎó±êÖ¾
-	int count_runway;		//ÅÜµÀÊı
+	bool error_flag = false;//é”™è¯¯æ ‡å¿—
+	int count_runway;		//è·‘é“æ•°
  
-	int size_queue_takeoff;	//Æğ·É·É»ú×ÜÊı
-	int size_queue_land;	//½µÂä·É»ú×ÜÊı
-	std::map<int, Runway> runway;				//ÓÃÀ´´æ·ÅÅÜµÀ
-	std::priority_queue <Plane> queue_takeoff;	//Æğ·É×Ü¶ÓÁĞ
-	std::priority_queue <Plane> queue_land;		//½µÂä×Ü¶ÓÁĞ
+	int size_queue_takeoff;	//èµ·é£é£æœºæ€»æ•°
+	int size_queue_land;	//é™è½é£æœºæ€»æ•°
+	std::map<int, Runway> runway;				//ç”¨æ¥å­˜æ”¾è·‘é“
+	std::priority_queue <Plane> queue_takeoff;	//èµ·é£æ€»é˜Ÿåˆ—
+	std::priority_queue <Plane> queue_land;		//é™è½æ€»é˜Ÿåˆ—
 	
-	vector <Plane> Taking;  //µ±Ç°¿ÉÆğ·É·É»ú¶ÓÁĞ 
-	vector <Plane> Landing; //µ±Ç°¿É½µÂä·É»ú¶ÓÁĞ	
+	vector <Plane> Taking;  //å½“å‰å¯èµ·é£é£æœºé˜Ÿåˆ— 
+	vector <Plane> Landing; //å½“å‰å¯é™è½é£æœºé˜Ÿåˆ—	
 
 };
 
