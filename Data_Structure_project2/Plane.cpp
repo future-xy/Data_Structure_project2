@@ -60,6 +60,11 @@ Plane::~Plane(){
 
 bool operator<(Plane a, Plane b)
 {
+	if (a.getFlag())
+	return a.getTime() < b.getTime();
+	if (a.fuel_consumption == 0 || b.fuel_consumption == 0)
+	return a.getTime() < b.getTime();
+	else 
 	return (double)a.fuel_level/a.fuel_consumption < (double)b.fuel_level / b.fuel_consumption;
 }
 
