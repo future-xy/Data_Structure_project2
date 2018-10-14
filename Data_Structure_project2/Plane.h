@@ -3,11 +3,12 @@ class Plane
 public:
 	Plane();
 	Plane(bool flag, int num, int fuel_level = 100000000, int fuel_consumption = 0);
-	bool update();//ÓÍÁ¿²»×ã¾Í·µ»Øfalse 
+	bool update();//æ²¹é‡ä¸è¶³å°±è¿”å›false 
 	void setFlag(bool flag);
 	bool getFlag() const;
 	int getNum() const;
-	int getFuel() const;//return fuel_level 
+	int getFuel() const;//return fuel_level
+	int last() const;
 	int getTime() const;
 	void setrunway(int ele);
 	int getrunway();
@@ -16,11 +17,11 @@ public:
 	
 	friend bool operator<(Plane, Plane);
 private:
-	bool flag;//takeoff/land true´ıÆğ·É false´ı½µÂä
-	int num;//·É»ú±àºÅ
+	bool flag;//takeoff/land trueå¾…èµ·é£ falseå¾…é™è½
+	int num;//é£æœºç¼–å·
 	int wait_time;
-	int fuel_level;//Ê£ÓàÓÍÁ¿
-	int fuel_consumption;//µ¥Î»Ê±¼äºÄÓÍÁ¿
-	int runway_num; //Ç°Íù»ú³¡±àºÅ 
+	int fuel_level;//å‰©ä½™æ²¹é‡
+	int fuel_consumption;//å•ä½æ—¶é—´è€—æ²¹é‡
+	int runway_num; //å‰å¾€æœºåœºç¼–å· 
 };
 
