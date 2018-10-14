@@ -20,11 +20,13 @@ using std::cin;
 using std::endl;
 
 bool fuel_flag;
+const double pi = 3.1415926;
 
 void Ini(Airport& myairport, unsigned int& time, double& e1, double& e2, bool& rand_flag, bool& fuel_flag);
 void print(int t, Airport myairport, tuple<bool, vector<Plane>, vector<Plane>>);
 void usercontrol(unsigned int &m, unsigned int &n);
 int possion(long double E);
+int norm(double i, double j);
 
 
 int main()
@@ -84,7 +86,7 @@ int main()
 		{
 			if (fuel_flag)
 			{
-				//myairport.message(false, num_plane++, norm(), norm());
+				myairport.message(false, num_plane++, norm(5000, 250000), norm(1000, 100000));
 			}
 			else
 			{
@@ -93,14 +95,8 @@ int main()
 		}
 		for (int i = 0; i < count_take_off; ++i)
 		{
-			if (fuel_flag)
-			{
-				//myairport.message(true, num_plane++, norm(), norm());
-			}
-			else
-			{
-				myairport.message(true, num_plane++);
-			}
+
+			myairport.message(true, num_plane++);
 		}
 		tuple<bool, vector<Plane>, vector<Plane>> result = myairport.Order();
 		bool error_flag = get<0>(result);
@@ -230,7 +226,7 @@ int possion(long double E)
         return k-1;
 }
 
-#define pi 3.1415926
+
 int norm(double i,double j)
 {
 	srand( (unsigned)time( NULL ) );
