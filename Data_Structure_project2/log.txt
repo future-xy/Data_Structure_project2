@@ -1,3 +1,11 @@
+Welcome to Guangzhou 319 International Airport
+Expected running time: 1000
+Use random number.
+λ1 (expected number of arrivals)	0.48
+λ2 (expected number of departures)	0.48
+The size of taking off queue: 10
+The size of landing queue: 10
+
 0:
 	Flight 1000 is landing on Runway 0	Waiting time	0
 
@@ -8,6 +16,7 @@ The waiting queue of planes to land:
 Flight	Waiting time
 
 1:
+	Flight 1001 is taking off on Runway 0	Waiting time	0
 
 The waiting queue of planes to take off:
 Flight	Waiting time
@@ -16,6 +25,7 @@ The waiting queue of planes to land:
 Flight	Waiting time
 
 2:
+	Flight 1002 is taking off on Runway 0	Waiting time	0
 
 The waiting queue of planes to take off:
 Flight	Waiting time
@@ -24,45 +34,17 @@ The waiting queue of planes to land:
 Flight	Waiting time
 
 3:
+	Flight 1003 is landing on Runway 0	Waiting time	0
 
 The waiting queue of planes to take off:
 Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-4:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-5:
-	Flight 1001 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1002	1
-1003	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-6:
-	Flight 1002 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1003	2
 
 The waiting queue of planes to land:
 Flight	Waiting time
 1004	1
 
-7:
-	Flight 1003 is taking off on Runway 0	Waiting time	2
+4:
+	Flight 1005 is taking off on Runway 0	Waiting time	0
 
 The waiting queue of planes to take off:
 Flight	Waiting time
@@ -71,7 +53,7 @@ The waiting queue of planes to land:
 Flight	Waiting time
 1004	2
 
-8:
+5:
 	Flight 1004 is landing on Runway 0	Waiting time	2
 
 The waiting queue of planes to take off:
@@ -79,3903 +61,28 @@ Flight	Waiting time
 
 The waiting queue of planes to land:
 Flight	Waiting time
-1005	1
-
-9:
-	Flight 1005 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-10:
-	Flight 1006 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1007	1
-
-11:
-	Flight 1008 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1007	2
-
-12:
-	Flight 1007 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1009	1
-
-13:
-	Flight 1009 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-14:
-	Flight 1011 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1010	1
-
-15:
-	Flight 1010 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-16:
-	Flight 1012 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-17:
-	Flight 1013 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1014	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-18:
-	Flight 1014 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1016	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1015	1
-
-19:
-	Flight 1016 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1017	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1015	2
-
-20:
-	Flight 1017 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1018	1
-1019	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1015	3
-
-21:
-	Flight 1018 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1019	2
-1020	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1015	4
-
-22:
-	Flight 1019 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1020	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1015	5
-
-23:
-	Flight 1020 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1015	6
-
-24:
-	Flight 1021 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1015	7
-
-25:
-	Flight 1015 is landing on Runway 0	Waiting time	7
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-26:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-27:
-	Flight 1022 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-28:
-	Flight 1023 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1024	1
-1025	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-29:
-	Flight 1024 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1025	2
-1026	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-30:
-	Flight 1025 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1026	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-31:
-	Flight 1026 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-32:
-	Flight 1027 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1028	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-33:
-	Flight 1028 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1029	1
-
-34:
-	Flight 1029 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1030	1
-
-35:
-	Flight 1030 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1032	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1031	1
-
-36:
-	Flight 1032 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1033	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1031	2
-
-37:
-	Flight 1033 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1031	3
-
-38:
-	Flight 1034 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1031	4
-
-39:
-	Flight 1035 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1031	5
-
-40:
-	Flight 1031 is landing on Runway 0	Waiting time	5
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-41:
-	Flight 1036 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-42:
-	Flight 1037 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-43:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-44:
-	Flight 1038 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-45:
-	Flight 1039 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-46:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-47:
-	Flight 1040 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-48:
-	Flight 1041 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-49:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-50:
-	Flight 1043 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1042	1
-
-51:
-	Flight 1042 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-52:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-53:
-	Flight 1044 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-54:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-55:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-56:
-	Flight 1046 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1045	1
-
-57:
-	Flight 1045 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-58:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-59:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-60:
-	Flight 1047 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1048	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-61:
-	Flight 1048 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-62:
-	Flight 1049 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-63:
-	Flight 1050 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-64:
-	Flight 1052 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1051	1
-
-65:
-	Flight 1051 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1054	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1053	1
-
-66:
-	Flight 1054 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1055	1
-1056	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1053	2
-
-67:
-	Flight 1055 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1056	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1053	3
-1057	1
-
-68:
-	Flight 1053 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1056	3
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1057	2
-1058	1
-
-69:
-	Flight 1057 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1056	4
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1058	2
-
-70:
-	Flight 1056 is taking off on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1060	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1058	3
-1059	1
-
-71:
-	Flight 1058 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1060	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1059	2
-
-72:
-	Flight 1060 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1059	3
-
-73:
-	Flight 1059 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-74:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-75:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-76:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-77:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-78:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-79:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-80:
-	Flight 1061 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1064	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1062	1
-1063	1
-
-81:
-	Flight 1062 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1064	2
-1066	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1063	2
-1065	1
-
-82:
-	Flight 1064 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1066	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1063	3
-1065	2
-
-83:
-	Flight 1063 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1066	3
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1065	3
-1067	1
-
-84:
-	Flight 1065 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1066	4
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1067	2
-1068	1
-
-85:
-	Flight 1067 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1066	5
-1070	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1068	2
-1069	1
-
-86:
-	Flight 1068 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1066	6
-1070	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1069	2
-1071	1
-
-87:
-	Flight 1066 is taking off on Runway 0	Waiting time	6
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1070	3
-1072	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1069	3
-1071	2
-
-88:
-	Flight 1070 is taking off on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1072	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1069	4
-1071	3
-
-89:
-	Flight 1069 is landing on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1072	3
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1071	4
-1073	1
-
-90:
-	Flight 1071 is landing on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1072	4
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1073	2
-1074	1
-
-91:
-	Flight 1073 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1072	5
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1074	2
-
-92:
-	Flight 1072 is taking off on Runway 0	Waiting time	5
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1075	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1074	3
-
-93:
-	Flight 1074 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1075	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1076	1
-1077	1
-
-94:
-	Flight 1076 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1075	3
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1077	2
-
-95:
-	Flight 1075 is taking off on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1079	1
-1080	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1077	3
-1078	1
-
-96:
-	Flight 1077 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1079	2
-1080	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1078	2
-1081	1
-
-97:
-	Flight 1079 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1080	3
-1083	1
-1082	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1078	3
-1081	2
-
-98:
-	Flight 1078 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1080	4
-1083	2
-1082	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1081	3
-1085	1
-1084	1
-
-99:
-	Flight 1081 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1080	5
-1083	3
-1082	3
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1084	2
-1085	2
-1087	1
-1086	1
-
-100:
-	Flight 1084 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1080	6
-1083	4
-1082	4
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1085	3
-1087	2
-1086	2
-
-101:
-	Flight 1085 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1080	7
-1083	5
-1082	5
-1090	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1086	3
-1087	3
-1089	1
-1088	1
-
-102:
-	Flight 1080 is taking off on Runway 0	Waiting time	7
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1083	6
-1082	6
-1090	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1086	4
-1087	4
-1088	2
-1089	2
-
-103:
-	Flight 1086 is landing on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1083	7
-1082	7
-1090	3
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1087	5
-1088	3
-1089	3
-
-104:
-	Flight 1087 is landing on Runway 0	Waiting time	5
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1083	8
-1082	8
-1090	4
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1089	4
-1088	4
-1091	1
-
-105:
-	Flight 1083 is taking off on Runway 0	Waiting time	8
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1082	9
-1090	5
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1089	5
-1088	5
-1091	2
-
-106:
-	Flight 1089 is landing on Runway 0	Waiting time	5
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1082	10
-1090	6
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1088	6
-1091	3
-
-107:
-	Flight 1088 is landing on Runway 0	Waiting time	6
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1082	11
-1090	7
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1091	4
-1092	1
-
-108:
-	Flight 1091 is landing on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1082	12
-1090	8
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1092	2
-1093	1
-
-109:
-	Flight 1092 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1082	13
-1090	9
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1093	2
-1094	1
-
-110:
-	Flight 1093 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1082	14
-1090	10
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1094	2
-1095	1
-
-111:
-	Flight 1082 is taking off on Runway 0	Waiting time	14
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1090	11
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1094	3
-1095	2
-
-112:
-	Flight 1094 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1090	12
-1098	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1095	3
-1097	1
-1096	1
-
-113:
-	Flight 1095 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1090	13
-1098	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1096	2
-1097	2
-1099	1
-
-114:
-	Flight 1096 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1090	14
-1098	3
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1097	3
-1099	2
-
-115:
-	Flight 1097 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1090	15
-1098	4
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1099	3
-1100	1
-
-116:
-	Flight 1099 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1090	16
-1098	5
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1100	2
-1102	1
-1101	1
-
-117:
-	Flight 1090 is taking off on Runway 0	Waiting time	16
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1098	6
-1103	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1100	3
-1102	2
-1101	2
-
-118:
-	Flight 1100 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1098	7
-1103	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1101	3
-1102	3
-1105	1
-1104	1
-
-119:
-	Flight 1101 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1098	8
-1103	3
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1102	4
-1105	2
-1104	2
-1106	1
-
-120:
-	Flight 1102 is landing on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1098	9
-1103	4
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1105	3
-1104	3
-1106	2
-1107	1
-
-121:
-	Flight 1105 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1098	10
-1103	5
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1104	4
-1106	3
-1107	2
-
-122:
-	Flight 1104 is landing on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1098	11
-1103	6
-1109	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1106	4
-1107	3
-1108	1
-
-123:
-	Flight 1098 is taking off on Runway 0	Waiting time	11
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1103	7
-1109	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1106	5
-1107	4
-1108	2
-
-124:
-	Flight 1106 is landing on Runway 0	Waiting time	5
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1103	8
-1109	3
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1107	5
-1108	3
-1110	1
-
-125:
-	Flight 1103 is taking off on Runway 0	Waiting time	8
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1109	4
-1111	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1107	6
-1108	4
-1110	2
-
-126:
-	Flight 1107 is landing on Runway 0	Waiting time	6
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1109	5
-1111	2
-1114	1
-1115	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1108	5
-1110	3
-1113	1
-1112	1
-
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1111	3
-1114	2
-1115	2
-1118	1
-1117	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1108	6
-1110	4
-1112	2
-1113	2
-1116	1
-
-0:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-1:
-	Flight 1000 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-2:
-	Flight 1001 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1004	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1002	1
-1003	1
-
-3:
-	Flight 1004 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1005	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1002	2
-1003	2
-
-4:
-	Flight 1002 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1005	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1003	3
 1006	1
 
-5:
-	Flight 1003 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1005	3
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1006	2
-
 6:
-	Flight 1005 is taking off on Runway 0	Waiting time	3
+	Flight 1006 is landing on Runway 0	Waiting time	1
 
 The waiting queue of planes to take off:
 Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1006	3
-
-7:
-	Flight 1006 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1009	1
 
 The waiting queue of planes to land:
 Flight	Waiting time
 1007	1
-1008	1
 
-8:
+7:
 	Flight 1007 is landing on Runway 0	Waiting time	1
 
 The waiting queue of planes to take off:
 Flight	Waiting time
-1009	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1008	2
-1010	1
-
-9:
-	Flight 1008 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1009	3
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1010	2
-1011	1
-
-10:
-	Flight 1010 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1009	4
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1011	2
-
-11:
-	Flight 1009 is taking off on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1011	3
-
-12:
-	Flight 1011 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1013	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1012	1
-
-13:
-	Flight 1013 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1012	2
-
-14:
-	Flight 1014 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1015	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1012	3
-
-15:
-	Flight 1015 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1012	4
-
-16:
-	Flight 1016 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1012	5
-
-17:
-	Flight 1012 is landing on Runway 0	Waiting time	5
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1018	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1017	1
-
-18:
-	Flight 1018 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1019	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1017	2
-
-19:
-	Flight 1019 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1017	3
-
-20:
-	Flight 1017 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1020	1
-
-21:
-	Flight 1020 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-22:
-	Flight 1021 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-23:
-	Flight 1022 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-24:
-	Flight 1023 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1024	1
-
-25:
-	Flight 1025 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1024	2
-
-26:
-	Flight 1026 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1024	3
-
-27:
-	Flight 1024 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-28:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-29:
-	Flight 1027 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-30:
-	Flight 1028 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-31:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-32:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-33:
-	Flight 1030 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1029	1
-
-34:
-	Flight 1029 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1031	1
-
-35:
-	Flight 1031 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-36:
-	Flight 1032 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-37:
-	Flight 1033 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-38:
-	Flight 1034 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-39:
-	Flight 1035 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-40:
-	Flight 1036 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-41:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-42:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-43:
-	Flight 1037 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-44:
-	Flight 1038 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1039	1
-
-45:
-	Flight 1039 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1042	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1040	1
-1041	1
-
-46:
-	Flight 1040 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1042	2
-1044	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1041	2
-1043	1
-
-47:
-	Flight 1041 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1042	3
-1044	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1043	2
-1045	1
-
-48:
-	Flight 1042 is taking off on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1044	3
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1043	3
-1045	2
-
-49:
-	Flight 1043 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1044	4
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1045	3
-
-50:
-	Flight 1044 is taking off on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1045	4
-
-51:
-	Flight 1045 is landing on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1046	1
-
-52:
-	Flight 1046 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1047	1
-
-53:
-	Flight 1047 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-54:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-55:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-56:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-57:
-	Flight 1049 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1048	1
-
-58:
-	Flight 1048 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-59:
-	Flight 1050 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-60:
-	Flight 1052 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1051	1
-
-61:
-	Flight 1051 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-62:
-	Flight 1054 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1053	1
-
-63:
-	Flight 1053 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1056	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1055	1
-
-64:
-	Flight 1055 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1056	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1057	1
-
-65:
-	Flight 1057 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1056	3
-1060	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1058	1
-1059	1
-
-66:
-	Flight 1056 is taking off on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1060	2
-1061	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1058	2
-1059	2
-
-67:
-	Flight 1060 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1061	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1058	3
-1059	3
-
-68:
-	Flight 1061 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1062	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1058	4
-1059	4
-
-69:
-	Flight 1058 is landing on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1062	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1059	5
-1063	1
-
-70:
-	Flight 1059 is landing on Runway 0	Waiting time	5
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1062	3
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1063	2
-
-71:
-	Flight 1062 is taking off on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1063	3
-
-72:
-	Flight 1063 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-73:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-74:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-75:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-76:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-77:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-78:
-	Flight 1064 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1065	1
-1066	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-79:
-	Flight 1065 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1066	2
-1068	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1067	1
-
-80:
-	Flight 1066 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1068	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1067	2
-1069	1
-
-81:
-	Flight 1068 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1070	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1067	3
-1069	2
-
-82:
-	Flight 1070 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1071	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1067	4
-1069	3
-
-83:
-	Flight 1071 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1072	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1067	5
-1069	4
-
-84:
-	Flight 1067 is landing on Runway 0	Waiting time	5
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1072	2
-1074	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1069	5
-1073	1
-
-85:
-	Flight 1072 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1074	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1069	6
-1073	2
-
-86:
-	Flight 1069 is landing on Runway 0	Waiting time	6
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1074	3
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1073	3
-1075	1
-
-87:
-	Flight 1074 is taking off on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1076	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1073	4
-1075	2
-
-88:
-	Flight 1076 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1077	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1073	5
-1075	3
-
-89:
-	Flight 1073 is landing on Runway 0	Waiting time	5
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1077	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1075	4
-
-90:
-	Flight 1077 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1075	5
-
-91:
-	Flight 1079 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1080	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1075	6
-1078	1
-
-92:
-	Flight 1075 is landing on Runway 0	Waiting time	6
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1080	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1078	2
-
-93:
-	Flight 1080 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1081	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1078	3
-
-94:
-	Flight 1078 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1081	2
-1084	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1082	1
-1083	1
-
-95:
-	Flight 1081 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1084	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1082	2
-1083	2
-
-96:
-	Flight 1082 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1084	3
-1087	1
-1088	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1083	3
-1086	1
-1085	1
-
-97:
-	Flight 1084 is taking off on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1088	2
-1087	2
-1090	1
-1089	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1083	4
-1086	2
-1085	2
-
-98:
-	Flight 1088 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1087	3
-1090	2
-1089	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1083	5
-1086	3
-1085	3
-
-99:
-	Flight 1087 is taking off on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1089	3
-1090	3
-1092	1
-1091	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1083	6
-1086	4
-1085	4
-
-100:
-	Flight 1089 is taking off on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1090	4
-1092	2
-1091	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1083	7
-1086	5
-1085	5
-1093	1
-
-101:
-	Flight 1083 is landing on Runway 0	Waiting time	7
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1090	5
-1092	3
-1091	3
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1086	6
-1085	6
-1093	2
-
-102:
-	Flight 1090 is taking off on Runway 0	Waiting time	5
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1091	4
-1092	4
-1094	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1086	7
-1085	7
-1093	3
-
-103:
-	Flight 1091 is taking off on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1092	5
-1094	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1086	8
-1085	8
-1093	4
-
-104:
-	Flight 1086 is landing on Runway 0	Waiting time	8
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1092	6
-1094	3
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1085	9
-1093	5
-
-105:
-	Flight 1092 is taking off on Runway 0	Waiting time	6
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1094	4
-1095	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1085	10
-1093	6
-
-106:
-	Flight 1094 is taking off on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1095	2
-1096	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1085	11
-1093	7
-
-107:
-	Flight 1095 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1096	2
-1097	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1085	12
-1093	8
-
-108:
-	Flight 1096 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1097	2
-1098	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1085	13
-1093	9
-
-109:
-	Flight 1097 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1098	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1085	14
-1093	10
-
-110:
-	Flight 1098 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1099	1
-1100	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1085	15
-1093	11
-
-111:
-	Flight 1099 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1100	2
-1102	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1085	16
-1093	12
-1101	1
-
-112:
-	Flight 1085 is landing on Runway 0	Waiting time	16
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1100	3
-1102	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1093	13
-1101	2
-
-113:
-	Flight 1100 is taking off on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1102	3
-1103	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1093	14
-1101	3
-
-114:
-	Flight 1102 is taking off on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1103	2
-1105	1
-1104	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1093	15
-1101	4
-
-115:
-	Flight 1103 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1105	2
-1104	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1093	16
-1101	5
-
-116:
-	Flight 1105 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1104	3
-1108	1
-1107	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1093	17
-1101	6
-1106	1
-
-117:
-	Flight 1104 is taking off on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1107	2
-1108	2
-1109	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1093	18
-1101	7
-1106	2
-
-118:
-	Flight 1107 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1108	3
-1109	2
-1110	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1093	19
-1101	8
-1106	3
-
-119:
-	Flight 1108 is taking off on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1109	3
-1110	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1093	20
-1101	9
-1106	4
-
-120:
-	Flight 1109 is taking off on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1110	3
-1111	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1093	21
-1101	10
-1106	5
-
-121:
-	Flight 1093 is landing on Runway 0	Waiting time	21
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1110	4
-1111	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1101	11
-1106	6
-1112	1
-
-122:
-	Flight 1110 is taking off on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1111	3
-1113	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1101	12
-1106	7
-1112	2
-
-123:
-	Flight 1101 is landing on Runway 0	Waiting time	12
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1111	4
-1113	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1106	8
-1112	3
-
-124:
-	Flight 1111 is taking off on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1113	3
-1116	1
-1115	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1106	9
-1112	4
-1114	1
-
-125:
-	Flight 1106 is landing on Runway 0	Waiting time	9
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1113	4
-1116	2
-1115	2
-1119	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1112	5
-1114	2
-1118	1
-1117	1
-
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1113	5
-1115	3
-1116	3
-1119	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1114	3
-1118	2
-1117	2
-1121	1
-1120	1
-
-0:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-1:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-2:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-3:
-	Flight 1001 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1000	1
-
-4:
-	Flight 1002 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1000	2
-
-5:
-	Flight 1000 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-6:
-	Flight 1003 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-7:
-	Flight 1004 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
 
 The waiting queue of planes to land:
 Flight	Waiting time
 
 8:
-	Flight 1006 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1005	1
-
-9:
-	Flight 1005 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1008	1
-1007	1
-1009	1
-
-10:
-	Flight 1008 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1007	2
-1009	2
-
-11:
-	Flight 1007 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1011	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1009	3
-1010	1
-
-12:
-	Flight 1009 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1011	2
-1013	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1010	2
-1012	1
-
-13:
-	Flight 1011 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1013	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1010	3
-1012	2
-
-14:
-	Flight 1013 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1014	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1010	4
-1012	3
-
-15:
-	Flight 1010 is landing on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1014	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1012	4
-
-16:
-	Flight 1014 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1015	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1012	5
-
-17:
-	Flight 1015 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1012	6
-
-18:
-	Flight 1016 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1012	7
-
-19:
-	Flight 1017 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1012	8
-
-20:
-	Flight 1012 is landing on Runway 0	Waiting time	8
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1018	1
-1019	1
-
-21:
-	Flight 1018 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1019	2
-
-22:
-	Flight 1019 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-23:
-	Flight 1020 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-24:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-25:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-26:
-	Flight 1021 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-27:
-	Flight 1023 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1022	1
-
-28:
-	Flight 1022 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-29:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-30:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-31:
-	Flight 1025 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1024	1
-
-32:
-	Flight 1024 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1026	1
-
-33:
-	Flight 1026 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1028	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1027	1
-
-34:
-	Flight 1028 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1029	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1027	2
-
-35:
-	Flight 1027 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1029	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1030	1
-1031	1
-
-36:
-	Flight 1030 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1029	3
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1031	2
-1032	1
-
-37:
-	Flight 1031 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1029	4
-1034	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1032	2
-1033	1
-
-38:
-	Flight 1029 is taking off on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1034	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1032	3
-1033	2
-
-39:
-	Flight 1032 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1034	3
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1033	3
-
-40:
-	Flight 1034 is taking off on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1033	4
-
-41:
-	Flight 1033 is landing on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-42:
-	Flight 1035 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-43:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-44:
-	Flight 1036 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-45:
-	Flight 1037 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-46:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-47:
-	Flight 1038 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-48:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-49:
-	Flight 1040 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1039	1
-
-50:
-	Flight 1039 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1041	1
-1042	1
-
-51:
-	Flight 1041 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1042	2
-1044	1
-1043	1
-
-52:
-	Flight 1042 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1045	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1044	2
-1043	2
-
-53:
-	Flight 1044 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1045	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1043	3
-
-54:
-	Flight 1045 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1043	4
-
-55:
-	Flight 1047 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1048	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1043	5
-1046	1
-
-56:
-	Flight 1043 is landing on Runway 0	Waiting time	5
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1048	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1046	2
-1050	1
-1049	1
-
-57:
-	Flight 1046 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1048	3
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1050	2
-1049	2
-
-58:
-	Flight 1050 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1048	4
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1049	3
-1052	1
-1051	1
-
-59:
-	Flight 1049 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1048	5
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1051	2
-1052	2
-1053	1
-
-60:
-	Flight 1051 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1048	6
-1054	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1052	3
-1053	2
-
-61:
-	Flight 1048 is taking off on Runway 0	Waiting time	6
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1054	2
-1055	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1052	4
-1053	3
-
-62:
-	Flight 1052 is landing on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1054	3
-1055	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1053	4
-1056	1
-
-63:
-	Flight 1054 is taking off on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1055	3
-1060	1
-1059	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1053	5
-1056	2
-1057	1
-1058	1
-
-64:
-	Flight 1055 is taking off on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1059	2
-1060	2
-1063	1
-1062	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1053	6
-1056	3
-1058	2
-1057	2
-1061	1
-
-0:
-	Flight 1000 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1001	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-1:
-	Flight 1001 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-2:
-	Flight 1002 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-3:
-	Flight 1004 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1003	1
-
-4:
-	Flight 1003 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-5:
-	Flight 1005 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-6:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-7:
-	Flight 1007 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1006	1
-
-8:
-	Flight 1008 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1009	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1006	2
-
-9:
-	Flight 1009 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1010	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1006	3
-
-10:
-	Flight 1006 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1010	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1011	1
-
-11:
-	Flight 1010 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1011	2
-
-12:
-	Flight 1012 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1011	3
-
-13:
-	Flight 1011 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1013	1
-
-14:
-	Flight 1013 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-15:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-16:
-	Flight 1014 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-17:
-	Flight 1015 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-18:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-19:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-20:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-21:
-	Flight 1017 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1016	1
-
-22:
-	Flight 1016 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1020	1
-1021	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1018	1
-1019	1
-
-23:
-	Flight 1020 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1021	2
-1023	1
-1022	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1018	2
-1019	2
-
-24:
-	Flight 1021 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1022	2
-1023	2
-1024	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1018	3
-1019	3
-
-25:
-	Flight 1022 is taking off on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1023	3
-1024	2
-1027	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1018	4
-1019	4
-1025	1
-1026	1
-
-26:
-	Flight 1018 is landing on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1023	4
-1024	3
-1027	2
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1019	5
-1025	2
-1026	2
-
-27:
-	Flight 1019 is landing on Runway 0	Waiting time	5
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1023	5
-1024	4
-1027	3
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1026	3
-1025	3
-1028	1
-
-28:
-	Flight 1023 is taking off on Runway 0	Waiting time	5
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1024	5
-1027	4
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1026	4
-1025	4
-1028	2
-
-29:
-	Flight 1026 is landing on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1024	6
-1027	5
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1025	5
-1028	3
-1030	1
-1029	1
-
-30:
-	Flight 1025 is landing on Runway 0	Waiting time	5
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1024	7
-1027	6
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1028	4
-1030	2
-1029	2
-1031	1
-
-31:
-	Flight 1028 is landing on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1024	8
-1027	7
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1030	3
-1029	3
-1031	2
-1032	1
-
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1024	8
-1027	7
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1030	3
-1029	3
-1031	2
-1032	1
-1034	0
-1033	0
-
-0:
-	Flight 1000 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-1:
-	Flight 1002 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1001	1
-
-2:
-	Flight 1003 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1001	2
-
-3:
-	Flight 1001 is landing on Runway 0	Waiting time	2
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-4:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-5:
-	Flight 1004 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1005	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-6:
-	Flight 1005 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-7:
-	Flight 1006 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1007	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-8:
-	Flight 1007 is taking off on Runway 0	Waiting time	1
 
 The waiting queue of planes to take off:
 Flight	Waiting time
@@ -3984,14 +91,6 @@ The waiting queue of planes to land:
 Flight	Waiting time
 
 9:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-10:
 	Flight 1008 is landing on Runway 0	Waiting time	0
 
 The waiting queue of planes to take off:
@@ -4000,108 +99,90 @@ Flight	Waiting time
 The waiting queue of planes to land:
 Flight	Waiting time
 
+10:
+	Flight 1009 is taking off on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1010	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
 11:
-	Flight 1010 is taking off on Runway 0	Waiting time	0
+	Flight 1010 is taking off on Runway 0	Waiting time	1
 
 The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1009	1
-
-12:
-	Flight 1009 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
 Flight	Waiting time
 1011	1
 
-13:
-	Flight 1012 is taking off on Runway 0	Waiting time	0
+The waiting queue of planes to land:
+Flight	Waiting time
+
+12:
+	Flight 1011 is taking off on Runway 0	Waiting time	1
 
 The waiting queue of planes to take off:
 Flight	Waiting time
 
 The waiting queue of planes to land:
 Flight	Waiting time
-1011	2
+1012	1
 
-14:
-	Flight 1011 is landing on Runway 0	Waiting time	2
+13:
+	Flight 1013 is taking off on Runway 0	Waiting time	0
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1012	2
+
+14:
+	Flight 1012 is landing on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1015	1
 
 The waiting queue of planes to land:
 Flight	Waiting time
 1014	1
-1013	1
-1015	1
 
 15:
-	Flight 1014 is landing on Runway 0	Waiting time	1
+	Flight 1015 is taking off on Runway 0	Waiting time	1
 
 The waiting queue of planes to take off:
 Flight	Waiting time
 
 The waiting queue of planes to land:
 Flight	Waiting time
-1013	2
-1015	2
+1014	2
 
 16:
-	Flight 1013 is landing on Runway 0	Waiting time	2
+	Flight 1014 is landing on Runway 0	Waiting time	2
 
 The waiting queue of planes to take off:
 Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1015	3
-
-17:
-	Flight 1015 is landing on Runway 0	Waiting time	3
-
-The waiting queue of planes to take off:
-Flight	Waiting time
+1017	1
 
 The waiting queue of planes to land:
 Flight	Waiting time
 1016	1
 
+17:
+	Flight 1017 is taking off on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1016	2
+
 18:
-	Flight 1016 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1017	1
-
-19:
-	Flight 1017 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-20:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-21:
-	Flight 1019 is taking off on Runway 0	Waiting time	0
+	Flight 1016 is landing on Runway 0	Waiting time	2
 
 The waiting queue of planes to take off:
 Flight	Waiting time
@@ -4110,7 +191,7 @@ The waiting queue of planes to land:
 Flight	Waiting time
 1018	1
 
-22:
+19:
 	Flight 1018 is landing on Runway 0	Waiting time	1
 
 The waiting queue of planes to take off:
@@ -4118,56 +199,49 @@ Flight	Waiting time
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1019	1
+
+20:
+	Flight 1019 is landing on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1020	1
+
+21:
+	Flight 1021 is taking off on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1020	2
+
+22:
+	Flight 1022 is taking off on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1020	3
 
 23:
+	Flight 1023 is taking off on Runway 0	Waiting time	0
 
 The waiting queue of planes to take off:
 Flight	Waiting time
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1020	4
 
 24:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-25:
-	Flight 1020 is landing on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1021	1
-1022	1
-
-26:
-	Flight 1021 is landing on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1023	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1022	2
-
-27:
-	Flight 1023 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1022	3
-
-28:
 	Flight 1024 is taking off on Runway 0	Waiting time	0
 
 The waiting queue of planes to take off:
@@ -4175,18 +249,10 @@ Flight	Waiting time
 
 The waiting queue of planes to land:
 Flight	Waiting time
-1022	4
+1020	5
 
-29:
-	Flight 1022 is landing on Runway 0	Waiting time	4
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-30:
+25:
+	Flight 1020 is landing on Runway 0	Waiting time	5
 
 The waiting queue of planes to take off:
 Flight	Waiting time
@@ -4194,7 +260,7 @@ Flight	Waiting time
 The waiting queue of planes to land:
 Flight	Waiting time
 
-31:
+26:
 	Flight 1026 is taking off on Runway 0	Waiting time	0
 
 The waiting queue of planes to take off:
@@ -4204,29 +270,17 @@ The waiting queue of planes to land:
 Flight	Waiting time
 1025	1
 
-32:
+27:
 	Flight 1025 is landing on Runway 0	Waiting time	1
 
 The waiting queue of planes to take off:
 Flight	Waiting time
-1028	1
 
 The waiting queue of planes to land:
 Flight	Waiting time
-1027	1
 
-33:
-	Flight 1028 is taking off on Runway 0	Waiting time	1
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1027	2
-
-34:
-	Flight 1027 is landing on Runway 0	Waiting time	2
+28:
+	Flight 1027 is taking off on Runway 0	Waiting time	0
 
 The waiting queue of planes to take off:
 Flight	Waiting time
@@ -4234,15 +288,7 @@ Flight	Waiting time
 The waiting queue of planes to land:
 Flight	Waiting time
 
-35:
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-36:
+29:
 	Flight 1029 is taking off on Runway 0	Waiting time	0
 
 The waiting queue of planes to take off:
@@ -4250,244 +296,474 @@ Flight	Waiting time
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1028	1
 
-37:
-	Flight 1030 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-1031	1
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-38:
-	Flight 1031 is taking off on Runway 0	Waiting time	1
+30:
+	Flight 1028 is landing on Runway 0	Waiting time	1
 
 The waiting queue of planes to take off:
 Flight	Waiting time
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1030	1
 
-39:
-	Flight 1032 is landing on Runway 0	Waiting time	0
+31:
+	Flight 1031 is taking off on Runway 0	Waiting time	0
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1032	1
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1030	2
 
-40:
-	Flight 1033 is landing on Runway 0	Waiting time	0
+32:
+	Flight 1030 is landing on Runway 0	Waiting time	2
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1032	2
 
 The waiting queue of planes to land:
 Flight	Waiting time
 1034	1
+1033	1
+1035	1
 
-41:
-	Flight 1035 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-1034	2
-
-42:
-	Flight 1034 is landing on Runway 0	Waiting time	2
+33:
+	Flight 1034 is landing on Runway 0	Waiting time	1
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1032	3
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1035	2
+1033	2
 1036	1
 
-43:
-	Flight 1036 is landing on Runway 0	Waiting time	1
+34:
+	Flight 1035 is landing on Runway 0	Waiting time	2
 
 The waiting queue of planes to take off:
 Flight	Waiting time
-
-The waiting queue of planes to land:
-Flight	Waiting time
-
-44:
-	Flight 1037 is taking off on Runway 0	Waiting time	0
-
-The waiting queue of planes to take off:
-Flight	Waiting time
+1032	4
 1038	1
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1033	3
+1036	2
+1037	1
 
-45:
-	Flight 1038 is taking off on Runway 0	Waiting time	1
+35:
+	Flight 1033 is landing on Runway 0	Waiting time	3
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1032	5
+1038	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1036	3
+1037	2
+1040	1
 1039	1
 
+36:
+	Flight 1036 is landing on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1032	6
+1038	3
+
 The waiting queue of planes to land:
 Flight	Waiting time
+1037	3
+1040	2
+1039	2
+1041	1
+
+37:
+	Flight 1037 is landing on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1032	7
+1038	4
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1040	3
+1039	3
+1041	2
+1042	1
+
+38:
+	Flight 1040 is landing on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1032	8
+1038	5
+1043	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1039	4
+1041	3
+1042	2
+
+39:
+	Flight 1032 is taking off on Runway 0	Waiting time	8
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1038	6
+1043	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1039	5
+1041	4
+1042	3
+
+40:
+	Flight 1039 is landing on Runway 0	Waiting time	5
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1038	7
+1043	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1041	5
+1042	4
+1045	1
+1044	1
+
+41:
+	Flight 1041 is landing on Runway 0	Waiting time	5
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1038	8
+1043	4
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1042	5
+1045	2
+1044	2
+1047	1
+1046	1
+
+42:
+	Flight 1042 is landing on Runway 0	Waiting time	5
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1038	9
+1043	5
+1049	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1045	3
+1044	3
+1047	2
+1046	2
+1048	1
+
+43:
+	Flight 1045 is landing on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1038	10
+1043	6
+1049	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1044	4
+1046	3
+1047	3
+1048	2
+
+44:
+	Flight 1044 is landing on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1038	11
+1043	7
+1049	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1046	4
+1047	4
+1048	3
+
+45:
+	Flight 1038 is taking off on Runway 0	Waiting time	11
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1043	8
+1049	4
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1046	5
+1047	5
+1048	4
 
 46:
-	Flight 1039 is taking off on Runway 0	Waiting time	1
+	Flight 1046 is landing on Runway 0	Waiting time	5
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1043	9
+1049	5
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1047	6
+1048	5
+1051	1
+1050	1
 
 47:
-	Flight 1040 is taking off on Runway 0	Waiting time	0
+	Flight 1047 is landing on Runway 0	Waiting time	6
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1043	10
+1049	6
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1048	6
+1051	2
+1050	2
 
 48:
+	Flight 1048 is landing on Runway 0	Waiting time	6
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1043	11
+1049	7
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1051	3
+1050	3
 
 49:
-	Flight 1041 is taking off on Runway 0	Waiting time	0
+	Flight 1043 is taking off on Runway 0	Waiting time	11
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1049	8
+1052	1
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1051	4
+1050	4
 
 50:
-	Flight 1042 is taking off on Runway 0	Waiting time	0
+	Flight 1051 is landing on Runway 0	Waiting time	4
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1049	9
+1052	2
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1050	5
+1054	1
+1053	1
 
 51:
-	Flight 1043 is landing on Runway 0	Waiting time	0
+	Flight 1050 is landing on Runway 0	Waiting time	5
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1049	10
+1052	3
+1056	1
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1053	2
+1054	2
+1055	1
 
 52:
+	Flight 1049 is taking off on Runway 0	Waiting time	10
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1052	4
+1056	2
+1058	1
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1053	3
+1054	3
+1055	2
+1057	1
 
 53:
-	Flight 1044 is taking off on Runway 0	Waiting time	0
+	Flight 1053 is landing on Runway 0	Waiting time	3
 
 The waiting queue of planes to take off:
 Flight	Waiting time
-1045	1
+1052	5
+1056	3
+1058	2
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1054	4
+1055	3
+1057	2
 
 54:
-	Flight 1045 is taking off on Runway 0	Waiting time	1
+	Flight 1054 is landing on Runway 0	Waiting time	4
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1052	6
+1056	4
+1058	3
+1061	1
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1055	4
+1057	3
+1060	1
+1059	1
 
 55:
-	Flight 1046 is landing on Runway 0	Waiting time	0
+	Flight 1052 is taking off on Runway 0	Waiting time	6
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1056	5
+1058	4
+1061	2
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1055	5
+1057	4
+1059	2
+1060	2
 
 56:
+	Flight 1055 is landing on Runway 0	Waiting time	5
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1056	6
+1058	5
+1061	3
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1057	5
+1059	3
+1060	3
 
 57:
+	Flight 1056 is taking off on Runway 0	Waiting time	6
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1058	6
+1061	4
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1057	6
+1059	4
+1060	4
 
 58:
-	Flight 1047 is taking off on Runway 0	Waiting time	0
+	Flight 1057 is landing on Runway 0	Waiting time	6
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1058	7
+1061	5
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1059	5
+1060	5
 
 59:
-	Flight 1048 is landing on Runway 0	Waiting time	0
+	Flight 1058 is taking off on Runway 0	Waiting time	7
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1061	6
+1062	1
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1059	6
+1060	6
 
 60:
-	Flight 1049 is taking off on Runway 0	Waiting time	0
+	Flight 1061 is taking off on Runway 0	Waiting time	6
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1062	2
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1059	7
+1060	7
 
 61:
-	Flight 1050 is taking off on Runway 0	Waiting time	0
+	Flight 1059 is landing on Runway 0	Waiting time	7
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1062	3
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1060	8
 
 62:
+	Flight 1062 is taking off on Runway 0	Waiting time	3
 
 The waiting queue of planes to take off:
 Flight	Waiting time
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1060	9
 
 63:
+	Flight 1060 is landing on Runway 0	Waiting time	9
 
 The waiting queue of planes to take off:
 Flight	Waiting time
@@ -4496,157 +772,3409 @@ The waiting queue of planes to land:
 Flight	Waiting time
 
 64:
+	Flight 1065 is taking off on Runway 0	Waiting time	0
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1066	1
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1063	1
+1064	1
 
 65:
+	Flight 1066 is taking off on Runway 0	Waiting time	1
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1067	1
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1063	2
+1064	2
 
 66:
+	Flight 1063 is landing on Runway 0	Waiting time	2
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1067	2
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1064	3
+1068	1
 
 67:
-	Flight 1051 is landing on Runway 0	Waiting time	0
+	Flight 1064 is landing on Runway 0	Waiting time	3
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1067	3
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1068	2
 
 68:
+	Flight 1067 is taking off on Runway 0	Waiting time	3
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1069	1
+1070	1
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1068	3
 
 69:
+	Flight 1069 is taking off on Runway 0	Waiting time	1
 
 The waiting queue of planes to take off:
 Flight	Waiting time
+1070	2
+1072	1
 
 The waiting queue of planes to land:
 Flight	Waiting time
+1068	4
+1071	1
 
 70:
-	Flight 1053 is taking off on Runway 0	Waiting time	0
+	Flight 1068 is landing on Runway 0	Waiting time	4
 
 The waiting queue of planes to take off:
 Flight	Waiting time
-1054	1
+1070	3
+1072	2
 
 The waiting queue of planes to land:
 Flight	Waiting time
-1052	1
+1071	2
+1073	1
 
 71:
-	Flight 1054 is taking off on Runway 0	Waiting time	1
+	Flight 1070 is taking off on Runway 0	Waiting time	3
 
 The waiting queue of planes to take off:
 Flight	Waiting time
-1056	1
+1072	3
 
 The waiting queue of planes to land:
 Flight	Waiting time
-1052	2
-1055	1
+1071	3
+1073	2
 
 72:
-	Flight 1052 is landing on Runway 0	Waiting time	2
+	Flight 1072 is taking off on Runway 0	Waiting time	3
 
 The waiting queue of planes to take off:
 Flight	Waiting time
-1056	2
-1058	1
+1074	1
 
 The waiting queue of planes to land:
 Flight	Waiting time
-1055	2
-1057	1
+1071	4
+1073	3
 
 73:
-	Flight 1056 is taking off on Runway 0	Waiting time	2
+	Flight 1071 is landing on Runway 0	Waiting time	4
 
 The waiting queue of planes to take off:
 Flight	Waiting time
-1058	2
-1059	1
+1074	2
 
 The waiting queue of planes to land:
 Flight	Waiting time
-1055	3
-1057	2
+1073	4
+1075	1
 
 74:
-	Flight 1058 is taking off on Runway 0	Waiting time	2
+	Flight 1073 is landing on Runway 0	Waiting time	4
 
 The waiting queue of planes to take off:
 Flight	Waiting time
-1059	2
-1061	1
+1074	3
 
 The waiting queue of planes to land:
 Flight	Waiting time
-1055	4
-1057	3
-1060	1
+1075	2
+1076	1
 
 75:
-	Flight 1055 is landing on Runway 0	Waiting time	4
+	Flight 1075 is landing on Runway 0	Waiting time	2
 
 The waiting queue of planes to take off:
 Flight	Waiting time
-1059	3
-1061	2
+1074	4
 
 The waiting queue of planes to land:
 Flight	Waiting time
-1057	4
-1060	2
+1076	2
 
 76:
-	Flight 1057 is landing on Runway 0	Waiting time	4
+	Flight 1074 is taking off on Runway 0	Waiting time	4
 
 The waiting queue of planes to take off:
 Flight	Waiting time
-1059	4
-1061	3
+1077	1
+1078	1
 
 The waiting queue of planes to land:
 Flight	Waiting time
-1060	3
-1063	1
-1062	1
-1064	1
+1076	3
+
+77:
+	Flight 1077 is taking off on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1078	2
+1080	1
+1079	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1076	4
+
+78:
+	Flight 1078 is taking off on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1079	2
+1080	2
+1082	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1076	5
+1081	1
+
+79:
+	Flight 1079 is taking off on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1080	3
+1082	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1076	6
+1081	2
+1083	1
+
+80:
+	Flight 1076 is landing on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1080	4
+1082	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1081	3
+1083	2
+
+81:
+	Flight 1080 is taking off on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1082	4
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1081	4
+1083	3
+
+82:
+	Flight 1082 is taking off on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1084	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1081	5
+1083	4
+
+83:
+	Flight 1081 is landing on Runway 0	Waiting time	5
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1084	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1083	5
+1085	1
+
+84:
+	Flight 1083 is landing on Runway 0	Waiting time	5
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1084	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1085	2
+
+85:
+	Flight 1085 is landing on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1084	4
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1086	1
+
+86:
+	Flight 1084 is taking off on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1086	2
+
+87:
+	Flight 1088 is taking off on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1089	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1086	3
+1087	1
+
+88:
+	Flight 1086 is landing on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1089	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1087	2
+1090	1
+
+89:
+	Flight 1087 is landing on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1089	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1090	2
+
+90:
+	Flight 1089 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1091	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1090	3
+
+91:
+	Flight 1091 is taking off on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1093	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1090	4
+1092	1
+
+92:
+	Flight 1090 is landing on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1093	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1092	2
+
+93:
+	Flight 1093 is taking off on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1095	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1092	3
+1094	1
+
+94:
+	Flight 1092 is landing on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1095	2
+1097	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1094	2
+1096	1
+
+95:
+	Flight 1095 is taking off on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1097	2
+1099	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1094	3
+1096	2
+1098	1
+
+96:
+	Flight 1094 is landing on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1097	3
+1099	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1096	3
+1098	2
+
+97:
+	Flight 1097 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1099	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1096	4
+1098	3
+
+98:
+	Flight 1096 is landing on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1099	4
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1098	4
+1101	1
+1100	1
+
+99:
+	Flight 1098 is landing on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1099	5
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1101	2
+1100	2
+
+100:
+	Flight 1101 is landing on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1099	6
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1100	3
+1103	1
+1102	1
+
+101:
+	Flight 1100 is landing on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1099	7
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1103	2
+1102	2
+
+102:
+	Flight 1099 is taking off on Runway 0	Waiting time	7
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1104	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1103	3
+1102	3
+
+103:
+	Flight 1104 is taking off on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1107	1
+1106	1
+1108	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1103	4
+1102	4
+1105	1
+
+104:
+	Flight 1107 is taking off on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1106	2
+1108	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1103	5
+1102	5
+1105	2
+
+105:
+	Flight 1103 is landing on Runway 0	Waiting time	5
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1106	3
+1108	3
+1110	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1102	6
+1105	3
+1109	1
+
+106:
+	Flight 1102 is landing on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1106	4
+1108	4
+1110	2
+1113	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1105	4
+1109	2
+1112	1
+1111	1
+
+107:
+	Flight 1106 is taking off on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1108	5
+1110	3
+1113	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1105	5
+1109	3
+1111	2
+1112	2
+
+108:
+	Flight 1105 is landing on Runway 0	Waiting time	5
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1108	6
+1110	4
+1113	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1109	4
+1111	3
+1112	3
+
+109:
+	Flight 1108 is taking off on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1110	5
+1113	4
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1109	5
+1111	4
+1112	4
+
+110:
+	Flight 1109 is landing on Runway 0	Waiting time	5
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1110	6
+1113	5
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1112	5
+1111	5
+1115	1
+1114	1
+
+111:
+	Flight 1112 is landing on Runway 0	Waiting time	5
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1110	7
+1113	6
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1111	6
+1115	2
+1114	2
+
+112:
+	Flight 1110 is taking off on Runway 0	Waiting time	7
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1113	7
+1117	1
+1116	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1111	7
+1115	3
+1114	3
+
+113:
+	Flight 1113 is taking off on Runway 0	Waiting time	7
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1116	2
+1117	2
+1118	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1111	8
+1115	4
+1114	4
+
+114:
+	Flight 1116 is taking off on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1117	3
+1118	2
+1119	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1111	9
+1115	5
+1114	5
+
+115:
+	Flight 1117 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1118	3
+1119	2
+1120	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1111	10
+1115	6
+1114	6
+
+116:
+	Flight 1118 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1119	3
+1120	2
+1122	1
+1121	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1111	11
+1115	7
+1114	7
+
+117:
+	Flight 1119 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1120	3
+1122	2
+1121	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1111	12
+1115	8
+1114	8
+
+118:
+	Flight 1120 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1122	3
+1121	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1111	13
+1115	9
+1114	9
+
+119:
+	Flight 1111 is landing on Runway 0	Waiting time	13
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1122	4
+1121	4
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1114	10
+1115	10
+1123	1
+
+120:
+	Flight 1114 is landing on Runway 0	Waiting time	10
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1122	5
+1121	5
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1115	11
+1123	2
+
+121:
+	Flight 1122 is taking off on Runway 0	Waiting time	5
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1121	6
+1125	1
+1124	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1115	12
+1123	3
+
+122:
+	Flight 1121 is taking off on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1124	2
+1125	2
+1126	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1115	13
+1123	4
+
+123:
+	Flight 1124 is taking off on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1125	3
+1126	2
+1127	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1115	14
+1123	5
+
+124:
+	Flight 1125 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1126	3
+1127	2
+1128	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1115	15
+1123	6
+
+125:
+	Flight 1126 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1127	3
+1128	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1115	16
+1123	7
+
+126:
+	Flight 1127 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1128	3
+1131	1
+1130	1
+1132	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1115	17
+1123	8
+1129	1
+
+127:
+	Flight 1128 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1131	2
+1130	2
+1132	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1115	18
+1123	9
+1129	2
+
+128:
+	Flight 1115 is landing on Runway 0	Waiting time	18
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1131	3
+1130	3
+1132	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1123	10
+1129	3
+1133	1
+
+129:
+	Flight 1131 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1132	4
+1130	4
+1135	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1123	11
+1129	4
+1133	2
+1134	1
+
+130:
+	Flight 1123 is landing on Runway 0	Waiting time	11
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1132	5
+1130	5
+1135	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1129	5
+1133	3
+1134	2
+
+131:
+	Flight 1132 is taking off on Runway 0	Waiting time	5
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1130	6
+1135	3
+1136	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1129	6
+1133	4
+1134	3
+
+132:
+	Flight 1130 is taking off on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1135	4
+1136	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1129	7
+1133	5
+1134	4
+
+133:
+	Flight 1129 is landing on Runway 0	Waiting time	7
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1135	5
+1136	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1133	6
+1134	5
+
+134:
+	Flight 1133 is landing on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1135	6
+1136	4
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1134	6
+1137	1
+
+135:
+	Flight 1134 is landing on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1135	7
+1136	5
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1137	2
+1138	1
+
+136:
+	Flight 1135 is taking off on Runway 0	Waiting time	7
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1136	6
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1137	3
+1138	2
+
+137:
+	Flight 1136 is taking off on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1139	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1137	4
+1138	3
+
+138:
+	Flight 1137 is landing on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1139	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1138	4
+1140	1
+
+139:
+	Flight 1138 is landing on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1139	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1140	2
+1141	1
+
+140:
+	Flight 1140 is landing on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1139	4
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1141	2
+
+141:
+	Flight 1139 is taking off on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1141	3
+
+142:
+	Flight 1142 is taking off on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1141	4
+
+143:
+	Flight 1143 is taking off on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1144	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1141	5
+
+144:
+	Flight 1144 is taking off on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1141	6
+
+145:
+	Flight 1141 is landing on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+146:
+	Flight 1145 is landing on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1146	1
+
+147:
+	Flight 1146 is landing on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+148:
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+149:
+	Flight 1147 is landing on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1149	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1148	1
+
+150:
+	Flight 1149 is taking off on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1148	2
+
+151:
+	Flight 1148 is landing on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+152:
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+153:
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+154:
+	Flight 1150 is taking off on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1151	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+155:
+	Flight 1151 is taking off on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1153	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1152	1
+
+156:
+	Flight 1153 is taking off on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1152	2
+
+157:
+	Flight 1152 is landing on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1157	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1155	1
+1154	1
+1156	1
+
+158:
+	Flight 1155 is landing on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1157	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1154	2
+1156	2
+
+159:
+	Flight 1154 is landing on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1157	3
+1159	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1156	3
+1158	1
+
+160:
+	Flight 1157 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1159	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1156	4
+1158	2
+
+161:
+	Flight 1156 is landing on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1159	3
+1161	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1158	3
+1160	1
+
+162:
+	Flight 1158 is landing on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1159	4
+1161	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1160	2
+1162	1
+
+163:
+	Flight 1159 is taking off on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1161	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1160	3
+1162	2
+
+164:
+	Flight 1160 is landing on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1161	4
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1162	3
+
+165:
+	Flight 1161 is taking off on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1162	4
+
+166:
+	Flight 1162 is landing on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1163	1
+
+167:
+	Flight 1163 is landing on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+168:
+	Flight 1164 is landing on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1165	1
+
+169:
+	Flight 1165 is landing on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1168	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1166	1
+1167	1
+
+170:
+	Flight 1166 is landing on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1168	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1167	2
+
+171:
+	Flight 1168 is taking off on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1167	3
+
+172:
+	Flight 1169 is taking off on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1167	4
+
+173:
+	Flight 1167 is landing on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+174:
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+175:
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+176:
+	Flight 1170 is taking off on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+177:
+	Flight 1172 is taking off on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1171	1
+
+178:
+	Flight 1171 is landing on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+179:
+	Flight 1173 is landing on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+180:
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+181:
+	Flight 1174 is landing on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+182:
+	Flight 1175 is landing on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1176	1
+
+183:
+	Flight 1176 is landing on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+184:
+	Flight 1177 is taking off on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+185:
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+186:
+	Flight 1178 is taking off on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+187:
+	Flight 1180 is taking off on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1179	1
+
+188:
+	Flight 1179 is landing on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1181	1
+
+189:
+	Flight 1182 is taking off on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1181	2
+
+190:
+	Flight 1181 is landing on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1184	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1183	1
+
+191:
+	Flight 1183 is landing on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1184	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1185	1
+1186	1
+
+192:
+	Flight 1185 is landing on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1184	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1186	2
+
+193:
+	Flight 1184 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1187	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1186	3
+
+194:
+	Flight 1186 is landing on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1187	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1188	1
+
+195:
+	Flight 1187 is taking off on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1190	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1188	2
+1189	1
+
+196:
+	Flight 1188 is landing on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1190	2
+1193	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1189	2
+1192	1
+1191	1
+
+197:
+	Flight 1189 is landing on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1190	3
+1193	2
+1195	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1191	2
+1192	2
+1194	1
+
+198:
+	Flight 1191 is landing on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1190	4
+1193	3
+1195	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1192	3
+1194	2
+1196	1
+
+199:
+	Flight 1192 is landing on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1190	5
+1193	4
+1195	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1194	3
+1196	2
+1198	1
+1197	1
+
+200:
+	Flight 1194 is landing on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1190	6
+1193	5
+1195	4
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1196	3
+1198	2
+1197	2
+
+201:
+	Flight 1190 is taking off on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1193	6
+1195	5
+1199	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1196	4
+1198	3
+1197	3
+
+202:
+	Flight 1193 is taking off on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1195	6
+1199	2
+1201	1
+1200	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1196	5
+1198	4
+1197	4
+
+203:
+	Flight 1195 is taking off on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1199	3
+1201	2
+1200	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1196	6
+1198	5
+1197	5
+
+204:
+	Flight 1199 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1201	3
+1200	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1196	7
+1198	6
+1197	6
+
+205:
+	Flight 1201 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1200	4
+1202	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1196	8
+1198	7
+1197	7
+
+206:
+	Flight 1200 is taking off on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1202	2
+1203	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1196	9
+1198	8
+1197	8
+
+207:
+	Flight 1196 is landing on Runway 0	Waiting time	9
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1202	3
+1203	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1198	9
+1197	9
+
+208:
+	Flight 1202 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1203	3
+1206	1
+1205	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1198	10
+1197	10
+1204	1
+
+209:
+	Flight 1198 is landing on Runway 0	Waiting time	10
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1203	4
+1206	2
+1205	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1197	11
+1204	2
+1207	1
+
+210:
+	Flight 1203 is taking off on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1205	3
+1206	3
+1208	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1197	12
+1204	3
+1207	2
+
+211:
+	Flight 1205 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1206	4
+1208	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1197	13
+1204	4
+1207	3
+
+212:
+	Flight 1206 is taking off on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1208	3
+1209	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1197	14
+1204	5
+1207	4
+
+213:
+	Flight 1208 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1209	2
+1212	1
+1211	1
+1213	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1197	15
+1204	6
+1207	5
+1210	1
+
+214:
+	Flight 1209 is taking off on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1212	2
+1211	2
+1213	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1197	16
+1204	7
+1207	6
+1210	2
+
+215:
+	Flight 1212 is taking off on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1213	3
+1211	3
+1214	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1197	17
+1204	8
+1207	7
+1210	3
+
+216:
+	Flight 1213 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1211	4
+1214	2
+1215	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1197	18
+1204	9
+1207	8
+1210	4
+
+217:
+	Flight 1211 is taking off on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1214	3
+1215	2
+1216	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1197	19
+1204	10
+1207	9
+1210	5
+
+218:
+	Flight 1197 is landing on Runway 0	Waiting time	19
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1214	4
+1215	3
+1216	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1204	11
+1207	10
+1210	6
+1217	1
+
+219:
+	Flight 1204 is landing on Runway 0	Waiting time	11
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1214	5
+1215	4
+1216	3
+1219	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1207	11
+1210	7
+1217	2
+1218	1
+
+220:
+	Flight 1207 is landing on Runway 0	Waiting time	11
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1214	6
+1215	5
+1216	4
+1219	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1210	8
+1217	3
+1218	2
+1221	1
+1220	1
+
+221:
+	Flight 1210 is landing on Runway 0	Waiting time	8
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1214	7
+1215	6
+1216	5
+1219	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1217	4
+1218	3
+1220	2
+1221	2
+1222	1
+
+222:
+	Flight 1217 is landing on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1214	8
+1215	7
+1216	6
+1219	4
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1218	4
+1221	3
+1220	3
+1222	2
+
+223:
+	Flight 1214 is taking off on Runway 0	Waiting time	8
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1215	8
+1216	7
+1219	5
+1224	1
+1223	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1218	5
+1220	4
+1221	4
+1222	3
+
+224:
+	Flight 1215 is taking off on Runway 0	Waiting time	8
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1216	8
+1219	6
+1223	2
+1224	2
+1227	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1218	6
+1221	5
+1220	5
+1222	4
+1225	1
+1226	1
+
+225:
+	Flight 1218 is landing on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1216	9
+1219	7
+1223	3
+1224	3
+1227	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1221	6
+1220	6
+1222	5
+1225	2
+1226	2
+
+226:
+	Flight 1221 is landing on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1216	10
+1219	8
+1223	4
+1224	4
+1227	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1220	7
+1222	6
+1226	3
+1225	3
+1228	1
+
+227:
+	Flight 1216 is taking off on Runway 0	Waiting time	10
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1219	9
+1224	5
+1223	5
+1227	4
+1231	1
+1230	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1220	8
+1222	7
+1226	4
+1225	4
+1228	2
+1229	1
+
+228:
+	Flight 1219 is taking off on Runway 0	Waiting time	9
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1224	6
+1223	6
+1227	5
+1231	2
+1230	2
+1233	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1220	9
+1222	8
+1226	5
+1225	5
+1228	3
+1229	2
+1232	1
+
+229:
+	Flight 1224 is taking off on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1223	7
+1227	6
+1231	3
+1230	3
+1233	2
+1234	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1220	10
+1222	9
+1226	6
+1225	6
+1228	4
+1229	3
+1232	2
+
+230:
+	Flight 1220 is landing on Runway 0	Waiting time	10
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1223	8
+1227	7
+1231	4
+1230	4
+1233	3
+1234	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1222	10
+1225	7
+1226	7
+1228	5
+1229	4
+1232	3
+
+231:
+	Flight 1223 is taking off on Runway 0	Waiting time	8
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1227	8
+1230	5
+1231	5
+1233	4
+1234	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1222	11
+1226	8
+1225	8
+1228	6
+1229	5
+1232	4
+
+232:
+	Flight 1227 is taking off on Runway 0	Waiting time	8
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1230	6
+1231	6
+1233	5
+1234	4
+1235	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1222	12
+1225	9
+1226	9
+1228	7
+1229	6
+1232	5
+
+233:
+	Flight 1230 is taking off on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1231	7
+1233	6
+1234	5
+1235	2
+1236	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1222	13
+1226	10
+1225	10
+1228	8
+1229	7
+1232	6
+
+234:
+	Flight 1222 is landing on Runway 0	Waiting time	13
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1231	8
+1233	7
+1234	6
+1235	3
+1236	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1226	11
+1225	11
+1228	9
+1229	8
+1232	7
+
+235:
+	Flight 1231 is taking off on Runway 0	Waiting time	8
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1233	8
+1234	7
+1235	4
+1236	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1226	12
+1225	12
+1228	10
+1229	9
+1232	8
+
+236:
+	Flight 1226 is landing on Runway 0	Waiting time	12
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1233	9
+1234	8
+1235	5
+1236	4
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1225	13
+1228	11
+1229	10
+1232	9
+
+237:
+	Flight 1233 is taking off on Runway 0	Waiting time	9
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1234	9
+1235	6
+1236	5
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1225	14
+1228	12
+1229	11
+1232	10
+
+238:
+	Flight 1225 is landing on Runway 0	Waiting time	14
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1234	10
+1235	7
+1236	6
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1228	13
+1229	12
+1232	11
+
+239:
+	Flight 1234 is taking off on Runway 0	Waiting time	10
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1235	8
+1236	7
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1228	14
+1229	13
+1232	12
+
+240:
+	Flight 1228 is landing on Runway 0	Waiting time	14
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1235	9
+1236	8
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1229	14
+1232	13
+
+241:
+	Flight 1235 is taking off on Runway 0	Waiting time	9
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1236	9
+1238	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1229	15
+1232	14
+1237	1
+
+242:
+	Flight 1229 is landing on Runway 0	Waiting time	15
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1236	10
+1238	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1232	15
+1237	2
+1239	1
+
+243:
+	Flight 1232 is landing on Runway 0	Waiting time	15
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1236	11
+1238	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1237	3
+1239	2
+1240	1
+
+244:
+	Flight 1237 is landing on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1236	12
+1238	4
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1239	3
+1240	2
+
+245:
+	Flight 1239 is landing on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1236	13
+1238	5
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1240	3
+1242	1
+1241	1
+
+246:
+	Flight 1240 is landing on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1236	14
+1238	6
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1242	2
+1241	2
+
+247:
+	Flight 1236 is taking off on Runway 0	Waiting time	14
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1238	7
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1242	3
+1241	3
+
+248:
+	Flight 1242 is landing on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1238	8
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1241	4
+
+249:
+	Flight 1238 is taking off on Runway 0	Waiting time	8
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1241	5
+
+250:
+	Flight 1241 is landing on Runway 0	Waiting time	5
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+251:
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+252:
+	Flight 1243 is taking off on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+253:
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+254:
+	Flight 1244 is landing on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1245	1
+
+255:
+	Flight 1245 is landing on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+256:
+	Flight 1247 is taking off on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1246	1
+
+257:
+	Flight 1246 is landing on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+258:
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+259:
+	Flight 1248 is taking off on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+260:
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+261:
+	Flight 1249 is taking off on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1250	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+262:
+	Flight 1250 is taking off on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+263:
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+264:
+	Flight 1251 is taking off on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+265:
+	Flight 1252 is taking off on Runway 0	Waiting time	0
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1253	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+
+266:
+	Flight 1253 is taking off on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1255	1
+1256	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1254	1
+
+267:
+	Flight 1255 is taking off on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1256	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1254	2
+
+268:
+	Flight 1256 is taking off on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1257	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1254	3
+
+269:
+	Flight 1257 is taking off on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1258	1
+1259	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1254	4
+
+270:
+	Flight 1258 is taking off on Runway 0	Waiting time	1
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1259	2
+1261	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1254	5
+1260	1
+
+271:
+	Flight 1259 is taking off on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1261	2
+1262	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1254	6
+1260	2
+
+272:
+	Flight 1254 is landing on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1261	3
+1262	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1260	3
+1263	1
+
+273:
+	Flight 1261 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1262	3
+1265	1
+1264	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1260	4
+1263	2
+
+274:
+	Flight 1262 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1264	2
+1265	2
+1266	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1260	5
+1263	3
+
+275:
+	Flight 1264 is taking off on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1265	3
+1266	2
+1267	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1260	6
+1263	4
+
+276:
+	Flight 1265 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1266	3
+1267	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1260	7
+1263	5
+
+277:
+	Flight 1266 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1267	3
+1269	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1260	8
+1263	6
+1268	1
+
+278:
+	Flight 1267 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1269	2
+1270	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1260	9
+1263	7
+1268	2
+
+279:
+	Flight 1269 is taking off on Runway 0	Waiting time	2
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1270	2
+1271	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1260	10
+1263	8
+1268	3
+
+280:
+	Flight 1260 is landing on Runway 0	Waiting time	10
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1270	3
+1271	2
+1273	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1263	9
+1268	4
+1272	1
+
+281:
+	Flight 1263 is landing on Runway 0	Waiting time	9
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1270	4
+1271	3
+1273	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1268	5
+1272	2
+1274	1
+
+282:
+	Flight 1270 is taking off on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1271	4
+1273	3
+1275	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1268	6
+1272	3
+1274	2
+
+283:
+	Flight 1271 is taking off on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1273	4
+1275	2
+1278	1
+1277	1
+1276	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1268	7
+1272	4
+1274	3
+
+284:
+	Flight 1273 is taking off on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1275	3
+1277	2
+1278	2
+1276	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1268	8
+1272	5
+1274	4
+
+285:
+	Flight 1275 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1277	3
+1278	3
+1276	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1268	9
+1272	6
+1274	5
+1279	1
+
+286:
+	Flight 1277 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1276	4
+1278	4
+1282	1
+1281	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1268	10
+1272	7
+1274	6
+1279	2
+1280	1
+
+287:
+	Flight 1276 is taking off on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1278	5
+1282	2
+1281	2
+1283	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1268	11
+1272	8
+1274	7
+1279	3
+1280	2
+
+288:
+	Flight 1278 is taking off on Runway 0	Waiting time	5
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1282	3
+1281	3
+1283	2
+1284	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1268	12
+1272	9
+1274	8
+1279	4
+1280	3
+
+289:
+	Flight 1282 is taking off on Runway 0	Waiting time	3
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1281	4
+1283	3
+1284	2
+1285	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1268	13
+1272	10
+1274	9
+1279	5
+1280	4
+
+290:
+	Flight 1268 is landing on Runway 0	Waiting time	13
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1281	5
+1283	4
+1284	3
+1285	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1272	11
+1274	10
+1279	6
+1280	5
+
+291:
+	Flight 1272 is landing on Runway 0	Waiting time	11
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1281	6
+1283	5
+1284	4
+1285	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1274	11
+1279	7
+1280	6
+1286	1
+
+292:
+	Flight 1281 is taking off on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1283	6
+1284	5
+1285	4
+1288	1
+1287	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1274	12
+1279	8
+1280	7
+1286	2
+
+293:
+	Flight 1283 is taking off on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1284	6
+1285	5
+1287	2
+1288	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1274	13
+1279	9
+1280	8
+1286	3
+
+294:
+	Flight 1284 is taking off on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1285	6
+1287	3
+1288	3
+1291	1
+1290	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1274	14
+1279	10
+1280	9
+1286	4
+1289	1
+
+295:
+	Flight 1285 is taking off on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1287	4
+1288	4
+1290	2
+1291	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1274	15
+1279	11
+1280	10
+1286	5
+1289	2
+
+296:
+	Flight 1287 is taking off on Runway 0	Waiting time	4
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1288	5
+1290	3
+1291	3
+1292	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1274	16
+1279	12
+1280	11
+1286	6
+1289	3
+
+297:
+	Flight 1274 is landing on Runway 0	Waiting time	16
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1288	6
+1291	4
+1290	4
+1292	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1279	13
+1280	12
+1286	7
+1289	4
+1293	1
+
+298:
+	Flight 1288 is taking off on Runway 0	Waiting time	6
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1291	5
+1290	5
+1292	3
+1295	1
+1296	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1279	14
+1280	13
+1286	8
+1289	5
+1293	2
+1294	1
+
+299:
+	Flight 1279 is landing on Runway 0	Waiting time	14
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1291	6
+1290	6
+1292	4
+1295	2
+1296	2
+1298	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1280	14
+1286	9
+1289	6
+1293	3
+1294	2
+1297	1
+
+300:
+	Flight 1280 is landing on Runway 0	Waiting time	14
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1291	7
+1290	7
+1292	5
+1296	3
+1295	3
+1298	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1286	10
+1289	7
+1293	4
+1294	3
+1297	2
+1299	1
+
+301:
+	Flight 1291 is taking off on Runway 0	Waiting time	7
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1290	8
+1292	6
+1296	4
+1295	4
+1298	3
+1300	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1286	11
+1289	8
+1293	5
+1294	4
+1297	3
+1299	2
+
+302:
+	Flight 1290 is taking off on Runway 0	Waiting time	8
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1292	7
+1295	5
+1296	5
+1298	4
+1300	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1286	12
+1289	9
+1293	6
+1294	5
+1297	4
+1299	3
+
+303:
+	Flight 1286 is landing on Runway 0	Waiting time	12
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1292	8
+1296	6
+1295	6
+1298	5
+1300	3
+1302	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1289	10
+1293	7
+1294	6
+1297	5
+1299	4
+1301	1
+
+304:
+	Flight 1292 is taking off on Runway 0	Waiting time	8
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1296	7
+1295	7
+1298	6
+1300	4
+1302	2
+1303	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1289	11
+1293	8
+1294	7
+1297	6
+1299	5
+1301	2
+
+305:
+	Flight 1289 is landing on Runway 0	Waiting time	11
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1296	8
+1295	8
+1298	7
+1300	5
+1302	3
+1303	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1293	9
+1294	8
+1297	7
+1299	6
+1301	3
+1304	1
+1305	1
+
+306:
+	Flight 1293 is landing on Runway 0	Waiting time	9
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1296	9
+1295	9
+1298	8
+1300	6
+1302	4
+1303	3
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1294	9
+1297	8
+1299	7
+1301	4
+1305	2
+1304	2
+
+307:
+	Flight 1294 is landing on Runway 0	Waiting time	9
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1296	10
+1295	10
+1298	9
+1300	7
+1302	5
+1303	4
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1297	9
+1299	8
+1301	5
+1304	3
+1305	3
+1306	1
+1309	1
+1308	1
+1307	1
+
+308:
+	Flight 1297 is landing on Runway 0	Waiting time	9
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1296	11
+1295	11
+1298	10
+1300	8
+1302	6
+1303	5
+1310	1
+1311	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1299	9
+1301	6
+1304	4
+1305	4
+1309	2
+1308	2
+1306	2
+1307	2
+
+309:
+	Flight 1296 is taking off on Runway 0	Waiting time	11
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1295	12
+1298	11
+1300	9
+1302	7
+1303	6
+1311	2
+1310	2
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1299	10
+1301	7
+1304	5
+1305	5
+1308	3
+1306	3
+1309	3
+1307	3
+
+310:
+	Flight 1299 is landing on Runway 0	Waiting time	10
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1295	13
+1298	12
+1300	10
+1302	8
+1303	7
+1310	3
+1311	3
+1313	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1301	8
+1305	6
+1304	6
+1307	4
+1309	4
+1308	4
+1306	4
+1312	1
+
+311:
+	Flight 1295 is taking off on Runway 0	Waiting time	13
+
+The waiting queue of planes to take off:
+Flight	Waiting time
+1298	13
+1300	11
+1302	9
+1303	8
+1310	4
+1311	4
+1313	2
+1315	1
+
+The waiting queue of planes to land:
+Flight	Waiting time
+1301	9
+1304	7
+1305	7
+1306	5
+1308	5
+1309	5
+1307	5
+1312	2
+1314	1
 
 
 The waiting queue of planes to take off:
 Flight	Waiting time
-1059	4
-1061	3
+1298	13
+1300	11
+1302	9
+1303	8
+1310	4
+1311	4
+1313	2
+1315	1
+1318	0
 
 The waiting queue of planes to land:
 Flight	Waiting time
-1060	3
-1063	1
-1062	1
-1064	1
-1065	0
-1066	0
+1301	9
+1304	7
+1305	7
+1306	5
+1308	5
+1309	5
+1307	5
+1312	2
+1314	1
+1317	0
+1316	0
 

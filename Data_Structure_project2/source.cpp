@@ -11,6 +11,7 @@
 
 #include"Airport.h"
 
+using std::ofstream;
 using std::tuple;
 using std::string;
 using std::vector;
@@ -22,8 +23,9 @@ using std::endl;
 
 bool fuel_flag;
 const double pi = 3.1415926;
+ofstream myout;
 
-unsigned int rp = rand() % 1097201711;
+unsigned int rp;
 
 void Ini(Airport& myairport, unsigned int& time, double& e1, double& e2, bool& rand_flag, bool& fuel_flag);
 void print(int t, Airport myairport, tuple<bool, vector<Plane>, vector<Plane>>);
@@ -36,7 +38,8 @@ int norm(double i, double j);
 int main()
 {
 	srand(time(0));
-	//testing_begin
+	rp = rand() % time(0) % 101099951;
+
 	Airport myairport;
 	unsigned int time = 0;		//
 	double e1, e2;				//e1-land,e2-take off;
@@ -46,6 +49,7 @@ int main()
 
 	Ini(myairport, time, e1, e2, rand_flag, fuel_flag);
 	system("cls");
+	myout.open("log.txt", std::ios::app);
 	while (true)
 	{
 		int ok = 0;
@@ -62,8 +66,8 @@ int main()
 				<< "1-land\n";
 			cin >> flag;
 			cout << "\nCan the property be changed\n"
-				<< "0-Yes\n"
-				<< "1-No\n";
+				<< "1-Yes\n"
+				<< "0-No\n";
 			cin >> tag;
 		}
 		else
@@ -91,7 +95,7 @@ int main()
 		{
 			if (fuel_flag)
 			{
-				myairport.message(false, num_plane++, norm(5000, 250000), norm(1000, 100000));
+				myairport.message(false, num_plane++, norm(5000, 250000), norm(800, 80000));
 			}
 			else
 			{
@@ -116,7 +120,7 @@ int main()
 			print(t, myairport, result);
 		}
 	}
-
+	myout.close();
 	return 0;
 
  } 
@@ -165,9 +169,8 @@ void print(int t, Airport myairport, tuple<bool, vector<Plane>, vector<Plane>> r
 		str += temp;
 	}
 	cout << str << endl;
-	std::ofstream myout("log.txt", std::ios::app);
 	myout << str << endl;
-	myout.close();
+
 }
 
 void print_err(Airport myairport)
@@ -199,18 +202,16 @@ void print_err(Airport myairport)
 	}
 
 	cout << str << endl;
-	std::ofstream myout("log.txt", std::ios::app);
 	myout << str << endl;
-	myout.close();
 }
 void Ini(Airport& myairport, unsigned int& time, double& e1, double& e2, bool& rand_flag, bool& fuel_flag)
 {
-	cout << "Welcome to Guangzhou 319 Internation Airport\n";
+	cout << "Welcome to Guangzhou 319 International Airport\n";
 	cout << "Please enter the following parameters to build a new airport\n"
 		<< "Running time? \n";
 	cin >> time;
 	cout << "\n";
-	cout << "Using random number? \n"
+	cout << "Use random number or not?\n"
 		<< "0-No\n"
 		<< "1-Yes\n";
 	cin >> rand_flag;
@@ -227,12 +228,28 @@ void Ini(Airport& myairport, unsigned int& time, double& e1, double& e2, bool& r
 		<< "1-Yes\n";
 	cin >> fuel_flag;
 	cout << "\nPlease enter the size of taking off queue\n";
-	int temp;
-	cin >> temp;
-	myairport.setSize_queue_takeoff(temp);
+	int temp1;
+	cin >> temp1;
+	myairport.setSize_queue_takeoff(temp1);
 	cout << "\nPlease enter the size of landing queue\n";
-	cin >> temp;
-	myairport.setSize_queue_land(temp);
+	int temp2;
+	cin >> temp2;
+	myairport.setSize_queue_land(temp2);
+	myout.open("log.txt");
+	myout << "Welcome to Guangzhou 319 International Airport\n"
+		<< "Expected running time: " << time << endl;
+	if (rand_flag)
+		myout << "Use random number." << endl
+		<< "λ1 (expected number of arrivals)\t" << e1 << endl
+		<< "λ2 (expected number of departures)\t" << e2 << endl;
+	if (fuel_flag)
+		myout << "Consider the fuel level" << endl;
+	myout << "The size of taking off queue: " << temp2 << endl;
+	myout << "The size of landing queue: " << temp1 << endl;
+	myout << "\n";
+	myout.close();
+	
+
 }
 
 //random and keyboard
@@ -247,35 +264,30 @@ void usercontrol(unsigned int &m,unsigned int &n)
 	cin >> m;
 	cout << endl; 
 }
-
 int possion(long double E)
 {
         long double Lambda = E;
 		int k = 0;
         long double p = 1.0;
         long double l=exp(-Lambda); 
-		std::ofstream testout("data.txt", std::ios::app);
+
 
         while (p>=l)
         {
                 double u;
-				//Sleep(10);
 				srand(rand() + rp++);
                 u = (float)(rand() % 100) / 100;
-
-				testout << u << endl;
                 p *= u;
                 k++;
         }
-		testout.close();
+
         return k-1;
 }
 
 
 int norm(double i,double j)
 {
-	srand(time(0));
-	Sleep(10);
+	srand(rand() + rp++);
 	double u1=double(rand()%1000)/1000,u2=double(rand()%1000)/1000,r;
 	static unsigned int seed=0;
 	r=i+sqrt(j)*sqrt(-2.0*(log(u1)/log(exp(1.0))))*cos(2*pi*u2);

@@ -1,11 +1,17 @@
 #include"Airport.h" 
 #include<iostream>
+#include<fstream>
+#include<string>
 
+using std::string;
 using std::vector;
 using std::tuple;
 using std::map;
+using std::cout;
+using std::endl;
 
 extern bool fuel_flag;
+extern std::ofstream myout;
 
 Airport::Airport()
 {
@@ -91,35 +97,40 @@ void Airport::Take_Land()
 			}
 		}
 	}
-	else if (runway.size() == 2) {
-		if (runway[0].getTag()) {//P3
-			if (!queue_takeoff.size() && !queue_land.size()) {}
-			else if (!queue_takeoff.size() && queue_land.size()) {
-				runway[0].setFlag(false);
-				runway[1].setFlag(false);
+	else if (runway.size() == 2 && runway[0].getTag()) {
+		static bool temp_flag = false;
+
+		if (temp_flag || queue_land.size() == size_queue_land || queue_takeoff.empty())
+		{
+			runway[0].setFlag(false);
+			runway[1].setFlag(false);
+			temp_flag = true;
+			if (queue_land.size() <= 2)
+			{
+				temp_flag = false;
 			}
-			else if (queue_takeoff.size() && !queue_land.size()) {
-				runway[0].setFlag(true);
-				runway[1].setFlag(true);
-			}
-			else {
-				runway[0].setFlag(true);
-				runway[1].setFlag(false);
-			}
+		}
+		else if (queue_land.empty())
+		{
+			runway[0].setFlag(true);
+			runway[1].setFlag(true);
+		}
+		else
+		{
+			runway[0].setFlag(true);
+			runway[1].setFlag(false);
 		}
 	}
 	else {//P4
 		for (auto iter : runway) {
-			if (iter.second.getTag()) {
+			if (iter.second.getTag()) 
+			{
 				if (queue_land.size()) {
-					iter.second.setFlag(true);
-				}
-			}
-		}
-		for (auto iter : runway) {
-			if (iter.second.getTag()) {
-				if (!queue_land.size()) {
 					iter.second.setFlag(false);
+				}
+				else
+				{
+					iter.second.setFlag(true);
 				}
 			}
 		}
@@ -191,7 +202,11 @@ tuple<bool, vector<Plane>, vector<Plane> > Airport::Order()
 		if (!item.update())
 		{
 			error_flag = true;
-			std::cout << "1";
+			string str;
+			str += "Plane " + std::to_string(item.getNum()) + " crashed" + "\tfuel level " + std::to_string(item.getFuel());
+			str += "\n";
+			cout << str;
+			myout << str << endl;
 			break;
 		}
 		queue_land.push(item);
