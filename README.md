@@ -1,7 +1,7 @@
-# Data_Structure_project2
-一些初步的想法，大家clone之后随意修改，然后上传就好     
+# Data_Structure_project2    
 
-### 飞机和跑道类问题应该不大，机场类还要和大佬继续商量
+### Ps:v0.1.0版本为实验版，即中途没有停止；v0.1.1版为展示版，每步一停   
+如果要生成数据可以使用v0.1.0，或者把v0.1.1版的停顿部分注释掉   
 ### Tips.  
 true->take off  
 false->land
