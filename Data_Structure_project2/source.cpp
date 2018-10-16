@@ -119,6 +119,13 @@ int main()
 		{
 			print(t, myairport, result);
 		}
+		cout << "\n";
+		int temp_ok = 1;
+		if (temp_ok)
+		{
+			cin >> temp_ok;
+		}
+
 	}
 	myout.close();
 	return 0;
@@ -218,9 +225,9 @@ void Ini(Airport& myairport, unsigned int& time, double& e1, double& e2, bool& r
 	cout << "\n";
 	if (rand_flag)
 	{
-		cout << "Please enter λ1 (expected number of arrivals)\n";
+		cout << "Please enter Lambda_1 (expected number of arrivals)\n";
 		cin >> e1;
-		cout << "\nPlease enter λ2 (expected number of departures)\n";
+		cout << "\nPlease enter Lambda_2 (expected number of departures)\n";
 		cin >> e2;
 	}
 	cout << "\nConsider the fuel level or not?\n"
