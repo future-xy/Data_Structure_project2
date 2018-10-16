@@ -27,6 +27,7 @@ ofstream myout;
 
 unsigned int rp;
 
+void build_new_runway(Airport& myairport);
 void Ini(Airport& myairport, unsigned int& time, double& e1, double& e2, bool& rand_flag, bool& fuel_flag);
 void print(int t, Airport myairport, tuple<bool, vector<Plane>, vector<Plane>>);
 void print_err(Airport myairport);
@@ -50,33 +51,7 @@ int main()
 	Ini(myairport, time, e1, e2, rand_flag, fuel_flag);
 	system("cls");
 	myout.open("log.txt", std::ios::app);
-	while (true)
-	{
-		int ok = 0;
-		cout << "\nWould you like to build a runway?\n"
-			<< "0 to end\n"
-			<< "1 to build\n";
-		cin >> ok;
-		bool flag;
-		bool tag;
-		if (ok)
-		{
-			cout << "\nInput property of the runway\n"
-				<< "0-take off\n"
-				<< "1-land\n";
-			cin >> flag;
-			cout << "\nCan the property be changed\n"
-				<< "1-Yes\n"
-				<< "0-No\n";
-			cin >> tag;
-		}
-		else
-		{
-			break;
-		}
-		myairport.buildRunway(flag, tag);
-	}
-	system("cls");
+	build_new_runway(myairport);
 
 	for (int t = 0; t < time; ++t)
 	{
@@ -120,10 +95,17 @@ int main()
 			print(t, myairport, result);
 		}
 		cout << "\n";
-		int temp_ok = 1;
+	    int temp_ok = 1;
 		if (temp_ok)
 		{
+			cout << "\nWould you want to build a new runway?\n"
+				<< "0-No\n"
+				<< "1-Yes\n";
 			cin >> temp_ok;
+			if (temp_ok == 1)
+			{
+				build_new_runway(myairport);
+			}
 		}
 
 	}
@@ -132,6 +114,37 @@ int main()
 
  } 
 
+void build_new_runway(Airport& myairport)
+{
+	while (true)
+	{
+		int ok = 0;
+		cout << "\nWould you like to build a runway?\n"
+			<< "0 to end\n"
+			<< "1 to build\n";
+		cin >> ok;
+		bool flag;
+		bool tag;
+		if (ok)
+		{
+			cout << "\nInput property of the runway\n"
+				<< "0-take off\n"
+				<< "1-land\n";
+			cin >> flag;
+			cout << "\nCan the property be changed\n"
+				<< "1-Yes\n"
+				<< "0-No\n";
+			cin >> tag;
+		}
+		else
+		{
+			break;
+		}
+		myairport.buildRunway(flag, tag);
+	}
+	system("cls");
+	return;
+}
 void print(int t, Airport myairport, tuple<bool, vector<Plane>, vector<Plane>> result)
 {
 	vector<Plane> taking = get<1>(result);
