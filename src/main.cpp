@@ -3,13 +3,17 @@
 #include<tuple>
 #include<string>
 
-#include <cmath>
-#include <ctime>
-#include <cstdlib>
+#include<cmath>
+#include<ctime>
 #include<cstdlib>
-#include<Windows.h>
 
 #include"Airport.h"
+
+#ifdef __linux__
+#define CLEAR "clear"
+#elif _WIN32
+#define CLEAR "cls"
+#endif
 
 using std::ofstream;
 using std::tuple;
@@ -49,7 +53,7 @@ int main()
 	unsigned num_plane = 1000;
 
 	Ini(myairport, time, e1, e2, rand_flag, fuel_flag);
-	system("cls");
+	system(CLEAR);
 	myout.open("log.txt", std::ios::app);
 	build_new_runway(myairport);
 
@@ -142,7 +146,7 @@ void build_new_runway(Airport& myairport)
 		}
 		myairport.buildRunway(flag, tag);
 	}
-	system("cls");
+	system(CLEAR);
 	return;
 }
 void print(int t, Airport myairport, tuple<bool, vector<Plane>, vector<Plane>> result)
